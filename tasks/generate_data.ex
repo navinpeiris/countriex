@@ -7,6 +7,7 @@ defmodule Mix.Tasks.Countriex.GenerateData do
     data_from_url
     |> Map.values
     |> parse
+    |> sort
     |> generate_file_content
     |> write_to_file
   end
@@ -31,9 +32,9 @@ defmodule Mix.Tasks.Countriex.GenerateData do
 
   defp parse_geo(geo_data) do
     %Geo{
-      latitude:       geo_data.latitude,
+      latitude:       geo_data.latitude |> to_float,
       latitude_dec:   geo_data.latitude_dec |> to_float,
-      longitude:      geo_data.longitude,
+      longitude:      geo_data.longitude |> to_float,
       longitude_dec:  geo_data.longitude_dec |> to_float,
       max_latitude:   geo_data.max_latitude |> to_float,
       max_longitude:  geo_data.max_longitude |> to_float,
@@ -41,6 +42,8 @@ defmodule Mix.Tasks.Countriex.GenerateData do
       min_longitude:  geo_data.min_longitude |> to_float,
     }
   end
+
+  defp sort(countries), do: countries |> Enum.sort_by(&Map.get(&1, :alpha2))
 
   defp generate_file_content(data) do
     """
@@ -60,6 +63,9 @@ defmodule Mix.Tasks.Countriex.GenerateData do
 
   defp write_to_file(content), do: File.write!("lib/countriex/data.ex", content)
 
+  defp to_float(nil), do: nil
+  defp to_float(val) when is_integer(val), do: val / 1.0
+  defp to_float(val) when is_float(val), do: val
   defp to_float(str) do
     {result, _} = Float.parse(str)
     result

@@ -32,7 +32,7 @@ defmodule Countriex do
 
       iex> c = Countriex.filter(:region, "Americas")
       iex> c |> List.first |> Map.get(:name)
-      "Uruguay"
+      "Antigua and Barbuda"
       iex> c |> length
       57
 
