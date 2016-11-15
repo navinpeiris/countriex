@@ -15,7 +15,7 @@ defmodule Countriex do
 
       iex> c = Countriex.get_by(:alpha2, "US")
       iex> c.name
-      "United States"
+      "United States of America"
 
       iex> Countriex.get_by(:alpha2, "XX")
       nil

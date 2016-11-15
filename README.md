@@ -23,7 +23,7 @@ Countriex.all
 The `get_by/2` method can be used to retrieve the first matching country for any given criteria, for example:
 
 ```elixir
-Countriex.get_by(:alpha2, "US")           # %Countriex.Country{name: "United States", alpha2: "US", alpha3: "USA", ...}
+Countriex.get_by(:alpha2, "US")           # %Countriex.Country{name: "United States of America", alpha2: "US", alpha3: "USA", ...}
 Countriex.get_by(:name, "United Kingdom") # %Countriex.Country{alpha2: "GB", alpha3: "GBR", ...}
 ```
 
