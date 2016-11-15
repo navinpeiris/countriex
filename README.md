@@ -8,7 +8,7 @@ Add `countriex` to your list of dependencies in `mix.exs`:
 
 ```elixir
 def deps do
-  [{:countriex, "~> 0.1.0"}]
+  [{:countriex, "~> 0.2.0"}]
 end
 ```
 
@@ -37,6 +37,8 @@ Countriex.get_by(:eu_member, true)   # [%Countriex.Country{name: "Luxembourg", .
 See the fields in the `Countriex.Country` struct for all possible field names that can be used for the above methods.
 
 ## Development
+
+### Regenerating country data
 
 Run the following mix task to re-generate the country data.
 
