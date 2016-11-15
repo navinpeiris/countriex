@@ -1,5 +1,11 @@
 # Countriex
 
+[![Build Status](https://travis-ci.org/navinpeiris/countriex.svg?branch=master)](https://travis-ci.org/navinpeiris/countriex)
+[![Hex version](https://img.shields.io/hexpm/v/countriex.svg "Hex version")](https://hex.pm/packages/countriex)
+[![Hex downloads](https://img.shields.io/hexpm/dt/countriex.svg "Hex downloads")](https://hex.pm/packages/countriex)
+[![Deps Status](https://beta.hexfaktor.org/badge/all/github/navinpeiris/countriex.svg)](https://beta.hexfaktor.org/github/navinpeiris/countriex)
+[![License](http://img.shields.io/:license-mit-blue.svg)](http://doge.mit-license.org)
+
 A pure elixir port of the ruby [countries](https://github.com/hexorx/countries) gem that provides all sorts of useful information about every country packaged as convenient little country structs. It includes data from ISO 3166 (countries and states/subdivisions), ISO 4217 (currency), and E.164 (phone numbers).
 
 ## Installation
