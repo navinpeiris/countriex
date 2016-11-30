@@ -4,7 +4,7 @@ defmodule Countriex.Mixfile do
   def project do
     [
       app: :countriex,
-      version: "0.2.0",
+      version: "0.3.0",
       name: "Countriex",
       description: "All sorts of useful information about every country. A pure elixir port of the ruby Countries gem",
       elixir: "~> 1.3",
