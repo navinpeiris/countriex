@@ -10,11 +10,11 @@ defmodule Countriex.Mixfile do
       elixir: "~> 1.3",
       source_url: "https://github.com/navinpeiris/countriex",
       homepage_url: "https://github.com/navinpeiris/countriex",
-      package: package,
+      package: package(),
       elixirc_paths: elixirc_paths(Mix.env),
       build_embedded: Mix.env == :prod,
       start_permanent: Mix.env == :prod,
-      deps: deps,
+      deps: deps(),
       docs: [extras: ["README.md"]]
     ]
   end

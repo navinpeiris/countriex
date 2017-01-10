@@ -4,7 +4,7 @@ defmodule Mix.Tasks.Countriex.GenerateData do
   @countries_json_url "https://raw.githubusercontent.com/hexorx/countries/master/lib/countries/cache/countries.json"
 
   def run(_) do
-    data_from_url
+    data_from_url()
     |> Map.values
     |> parse
     |> sort
