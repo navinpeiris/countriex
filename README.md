@@ -26,6 +26,12 @@ To get all country information:
 Countriex.all
 ```
 
+To get all state information:
+
+```elixir
+Countriex.all_states
+```
+
 The `get_by/2` method can be used to retrieve the first matching country for any given criteria, for example:
 
 ```elixir
@@ -40,7 +46,14 @@ Countriex.get_by(:region, "Oceania") # [%Countriex.Country{name: "Kiribati", ...
 Countriex.get_by(:eu_member, true)   # [%Countriex.Country{name: "Luxembourg", ...}, %Countriex.Country{name: "Poland", ...}, ...]
 ```
 
-See the fields in the `Countriex.Country` struct for all possible field names that can be used for the above methods.
+The `all_states/2` method can be used to retrieve all states for the given country:
+
+```elixir
+country = Countriex.get_by(:alpha2, "US")
+Countriex.all_states(country)
+```
+
+See the fields in the `Countriex.Country` and `Countriex.State` struct for all possible field names that can be used for the above methods.
 
 ## Development
 
