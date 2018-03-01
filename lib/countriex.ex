@@ -47,7 +47,7 @@ defmodule Countriex do
   @doc """
   Returns all state data
   """
-  def all_states, do: Countriex.Data.states
+  def all_states, do: Data.states
 
   @doc """
   Returns all state data with the given country struct.
@@ -56,11 +56,11 @@ defmodule Countriex do
 
       iex> c = Countriex.get_by(:alpha2, "US")
       iex> length Countriex.all_states(c)
-      nil
+      60
   """
   def all_states(%Countriex.Country{} = country) do
-    Enum.filter(Countriex.Data.states, fn state -> country.alpha3 == state.country_alpha3 end)
+    Enum.filter(Data.states, fn state -> country.alpha3 == state.country_alpha3 end)
   end
-  
+
   defp matches?(country, field, value), do: Map.get(country, field) == value
 end
