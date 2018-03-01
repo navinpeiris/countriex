@@ -1,18 +1,20 @@
 defmodule Mix.Tasks.Countriex.GenerateData do
-  alias Countriex.{Country, Geo}
+  alias Countriex.{Country, Geo, State}
 
   @countries_json_url "https://raw.githubusercontent.com/hexorx/countries/master/lib/countries/cache/countries.json"
+  @states_json_url "https://raw.githubusercontent.com/hexorx/countries/master/lib/countries/data/subdivisions/"
 
   def run(_) do
-    data_from_url()
+    countries = countries_from_url()
     |> Map.values
-    |> parse
+    |> parse(%Country{})
     |> sort
-    |> generate_file_content
-    |> write_to_file
+
+    states = states_from_url(countries)
+    write_to_file(generate_file_content(%{countries: countries, states: states}))
   end
 
-  defp data_from_url do
+  defp countries_from_url do
     HTTPoison.start
 
     @countries_json_url
@@ -21,16 +23,41 @@ defmodule Mix.Tasks.Countriex.GenerateData do
     |> Poison.decode!(keys: :atoms)
   end
 
-  defp parse(data) when is_list(data) do
-    Enum.map(data, &parse/1)
+  defp states_from_url(countries) do
+    Application.ensure_all_started(:yaml_elixir)
+    Enum.flat_map(countries, fn country ->
+      response = HTTPoison.get!(@states_json_url <> "#{country.alpha2}.yaml")
+      IO.puts country.name
+
+      case response.status_code do
+        200 ->
+          Map.get(response, :body)
+          |> YamlElixir.read_from_string
+          |> Map.values
+          |> string_to_atom
+          |> Enum.filter(&Map.has_key?(&1, :name))
+          |> parse(%State{})
+          |> Enum.map(&Map.merge(&1, %{country_alpha3: country.alpha3}))
+        404 -> []
+      end
+    end)
   end
 
-  defp parse(data) when is_map(data) do
-    geo = data.geo |> parse_geo
-    %Country{} |> Map.merge(data) |> Map.merge(%{geo: geo})
+  defp string_to_atom(data) when is_list(data), do: Enum.map(data, &string_to_atom(&1))
+  defp string_to_atom(data) when is_map(data) do
+    {:ok, atomized_data} = Morphix.atomorphiform(data)
+    atomized_data
   end
 
-  defp parse_geo(geo_data) do
+  defp parse(data, type) when is_list(data) do
+    Enum.map(data, &parse(&1, type))
+  end
+  defp parse(data, type) when is_map(data) do
+    geo = if (Map.has_key?(data, :geo) && data.geo), do: data.geo |> parse_geo(type), else: %{}
+    type |> Map.merge(data) |> Map.merge(%{geo: geo})
+  end
+
+  defp parse_geo(geo_data, %Country{}) do
     %Geo{
       latitude:       geo_data.latitude |> to_float,
       latitude_dec:   geo_data.latitude_dec |> to_float,
@@ -42,10 +69,20 @@ defmodule Mix.Tasks.Countriex.GenerateData do
       min_longitude:  geo_data.min_longitude |> to_float,
     }
   end
+  defp parse_geo(geo_data, %State{}) do
+    %Geo{
+      latitude:       geo_data.latitude |> to_float,
+      longitude:      geo_data.longitude |> to_float,
+      max_latitude:   geo_data.max_latitude |> to_float,
+      max_longitude:  geo_data.max_longitude |> to_float,
+      min_latitude:   geo_data.min_latitude |> to_float,
+      min_longitude:  geo_data.min_longitude |> to_float,
+    }
+  end
 
   defp sort(countries), do: countries |> Enum.sort_by(&Map.get(&1, :alpha2))
 
-  defp generate_file_content(data) do
+  defp generate_file_content(%{countries: countries, states: states}) do
     """
     defmodule Countriex.Data do
       @moduledoc \"\"\"
@@ -55,7 +92,11 @@ defmodule Mix.Tasks.Countriex.GenerateData do
       \"\"\"
 
       def countries do
-    #{format(data)}
+    #{format(countries)}
+      end
+
+      def states do
+    #{format(states)}
       end
     end
     """
