@@ -35,7 +35,7 @@ defmodule Mix.Tasks.Countriex.GenerateData do
         200 ->
           Map.get(response, :body)
           |> YamlElixir.read_from_string
-          |> Map.values
+          |> assign_state_code
           |> string_to_atom
           |> Enum.filter(&Map.has_key?(&1, :name))
           |> parse(%State{})
@@ -43,6 +43,10 @@ defmodule Mix.Tasks.Countriex.GenerateData do
         404 -> []
       end
     end)
+  end
+
+  defp assign_state_code(data) when is_map(data) do
+    for {state_code, value} <- data, do: Map.merge(value, %{code: state_code})
   end
 
   defp string_to_atom(data) when is_list(data), do: Enum.map(data, &string_to_atom(&1))
