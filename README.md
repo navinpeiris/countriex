@@ -14,7 +14,7 @@ Add `countriex` to your list of dependencies in `mix.exs`:
 
 ```elixir
 def deps do
-  [{:countriex, "~> 0.4"}]
+  [{:countriex, "~> 0.5"}]
 end
 ```
 
