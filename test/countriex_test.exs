@@ -20,7 +20,7 @@ defmodule CountriexTest do
     test "returns nil if no country matches the given criteria" do
       country = Countriex.get_by(:name, "United Kingdom")
 
-      assert country == nil
+      assert is_nil(country)
     end
   end
 
@@ -35,7 +35,7 @@ defmodule CountriexTest do
     end
 
     test "Returns an empty list if the criteria does not match any countries" do
-      countries = Countriex.filter(:current_code, "foo")
+      countries = Countriex.filter(:currency_code, "foo")
 
       assert countries == []
     end
