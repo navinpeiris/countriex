@@ -29,7 +29,7 @@ defmodule CountriexTest do
       countries = Countriex.filter(:currency_code, "USD")
       country = List.first(countries)
 
-      assert length(countries) == 20
+      assert length(countries) == 19
       assert country.name == "Antarctica"
       assert country.currency_code == "USD"
     end
@@ -45,7 +45,7 @@ defmodule CountriexTest do
     test "returns all states" do
       states = Countriex.all_states
 
-      assert states |> length == 4375
+      assert states |> length == 4631
     end
   end
 
