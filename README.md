@@ -14,7 +14,7 @@ Add `countriex` to your list of dependencies in `mix.exs`:
 
 ```elixir
 def deps do
-  [{:countriex, "~> 1.0.1"}]
+  [{:countriex, "~> 1.0.1", github: "normancapule/countriex"}]
 end
 ```
 
