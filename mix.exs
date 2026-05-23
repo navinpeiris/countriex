@@ -4,7 +4,7 @@ defmodule Countriex.Mixfile do
   def project do
     [
       app: :countriex,
-      version: "0.4.1",
+      version: "0.5.0",
       name: "Countriex",
       description: "All sorts of useful information about every country. A pure elixir port of the ruby Countries gem",
       elixir: "~> 1.15",
@@ -22,7 +22,7 @@ defmodule Countriex.Mixfile do
   end
 
   defp package do
-    [files: ["lib", "mix.exs", "README*", "LICENSE*"],
+    [files: ["lib", "mix.exs", "README*", "LICENSE*", "CHANGELOG*"],
      maintainers: ["Navin Peiris"],
      licenses: ["MIT"],
      links: %{"GitHub" => "https://github.com/navinpeiris/countriex"}]
