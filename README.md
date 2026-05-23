@@ -35,8 +35,8 @@ Countriex.get_by(:name, "United Kingdom") # %Countriex.Country{alpha2: "GB", alp
 The `filter/2` method can be used to retrieve all countries matching the given criteria:
 
 ```elixir
-Countriex.get_by(:region, "Oceania") # [%Countriex.Country{name: "Kiribati", ...}, %Countriex.Country{name: "American Samoa", ...}, ...]
-Countriex.get_by(:eu_member, true)   # [%Countriex.Country{name: "Luxembourg", ...}, %Countriex.Country{name: "Poland", ...}, ...]
+Countriex.filter(:region, "Oceania") # [%Countriex.Country{name: "Kiribati", ...}, %Countriex.Country{name: "American Samoa", ...}, ...]
+Countriex.filter(:eu_member, true)   # [%Countriex.Country{name: "Luxembourg", ...}, %Countriex.Country{name: "Poland", ...}, ...]
 ```
 
 See the fields in the `Countriex.Country` struct for all possible field names that can be used for the above methods.
