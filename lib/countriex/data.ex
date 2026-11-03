@@ -7,8 +7,7 @@ defmodule Countriex.Data do
 
   def countries do
     [
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "AD",
         alpha3: "AND",
@@ -18,7 +17,11 @@ defmodule Countriex.Data do
         currency_code: "EUR",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "AN",
         geo: %Countriex.Geo{
           latitude: 42.506285,
@@ -31,6 +34,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "AND",
         iso_long_name: "The Principality of Andorra",
+        iso_short_name_lower_case: nil,
         languages_official: ["ca"],
         languages_spoken: ["ca"],
         name: "Andorra",
@@ -57,8 +61,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "AND",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: "{{recipient}}\n{{street}}\n{{postalcode}} {{city}}\n{{country}}",
         alpha2: "AE",
         alpha3: "ARE",
@@ -68,7 +71,11 @@ defmodule Countriex.Data do
         currency_code: "AED",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "AE",
         geo: %Countriex.Geo{
           latitude: 23.424076,
@@ -94,6 +101,7 @@ defmodule Countriex.Data do
         nationality: "Emirian",
         number: "784",
         postal_code: false,
+        postal_code_format: nil,
         region: "Asia",
         start_of_week: "monday",
         subregion: "Western Asia",
@@ -115,8 +123,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "UAE",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "AF",
         alpha3: "AFG",
@@ -126,7 +133,11 @@ defmodule Countriex.Data do
         currency_code: "AFN",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "AF",
         geo: %Countriex.Geo{
           latitude: 33.93911,
@@ -139,6 +150,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "AFG",
         iso_long_name: "The Islamic Republic of Afghanistan",
+        iso_short_name_lower_case: nil,
         languages_official: ["ps",
          "uz",
          "tk"],
@@ -167,8 +179,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "AFG",
         world_region: "APAC"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "AG",
         alpha3: "ATG",
@@ -178,7 +189,11 @@ defmodule Countriex.Data do
         currency_code: "XCD",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "AC",
         geo: %Countriex.Geo{
           latitude: 17.060816,
@@ -191,6 +206,7 @@ defmodule Countriex.Data do
         international_prefix: "011",
         ioc: "ANT",
         iso_long_name: "Antigua and Barbuda",
+        iso_short_name_lower_case: nil,
         languages_official: ["en"],
         languages_spoken: ["en"],
         name: "Antigua and Barbuda",
@@ -201,6 +217,7 @@ defmodule Countriex.Data do
         nationality: "Antiguan, Barbudan",
         number: "028",
         postal_code: false,
+        postal_code_format: nil,
         region: "Americas",
         start_of_week: "monday",
         subregion: "Caribbean",
@@ -216,8 +233,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "AG",
         world_region: "AMER"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "AI",
         alpha3: "AIA",
@@ -227,7 +243,11 @@ defmodule Countriex.Data do
         currency_code: "XCD",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "AV",
         geo: %Countriex.Geo{
           latitude: 18.220554,
@@ -240,6 +260,7 @@ defmodule Countriex.Data do
         international_prefix: "011",
         ioc: nil,
         iso_long_name: "Anguilla",
+        iso_short_name_lower_case: nil,
         languages_official: ["en"],
         languages_spoken: ["en"],
         name: "Anguilla",
@@ -262,8 +283,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "AXA",
         world_region: "AMER"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "AL",
         alpha3: "ALB",
@@ -273,7 +293,11 @@ defmodule Countriex.Data do
         currency_code: "ALL",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "AL",
         geo: %Countriex.Geo{
           latitude: 41.153332,
@@ -286,6 +310,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "ALB",
         iso_long_name: "The Republic of Albania",
+        iso_short_name_lower_case: nil,
         languages_official: ["sq"],
         languages_spoken: ["sq"],
         name: "Albania",
@@ -313,8 +338,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "AL",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "AM",
         alpha3: "ARM",
@@ -324,7 +348,11 @@ defmodule Countriex.Data do
         currency_code: "AMD",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "AM",
         geo: %Countriex.Geo{
           latitude: 40.069099,
@@ -337,6 +365,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "ARM",
         iso_long_name: "The Republic of Armenia",
+        iso_short_name_lower_case: nil,
         languages_official: ["hy"],
         languages_spoken: ["hy",
          "ru"],
@@ -363,8 +392,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "AM",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "AO",
         alpha3: "AGO",
@@ -374,7 +402,11 @@ defmodule Countriex.Data do
         currency_code: "AOA",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "AO",
         geo: %Countriex.Geo{
           latitude: -11.202692,
@@ -387,6 +419,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "ANG",
         iso_long_name: "The Republic of Angola",
+        iso_short_name_lower_case: nil,
         languages_official: ["pt"],
         languages_spoken: ["pt"],
         name: "Angola",
@@ -397,6 +430,7 @@ defmodule Countriex.Data do
         nationality: "Angolan",
         number: "024",
         postal_code: false,
+        postal_code_format: nil,
         region: "Africa",
         start_of_week: "monday",
         subregion: "Middle Africa",
@@ -408,8 +442,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "ANG",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "AQ",
         alpha3: "ATA",
@@ -419,7 +452,11 @@ defmodule Countriex.Data do
         currency_code: "USD",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "AY",
         geo: %Countriex.Geo{
           latitude: -82.862752,
@@ -432,6 +469,7 @@ defmodule Countriex.Data do
         international_prefix: "",
         ioc: nil,
         iso_long_name: "Antarctica",
+        iso_short_name_lower_case: nil,
         languages_official: [],
         languages_spoken: [],
         name: "Antarctica",
@@ -442,6 +480,7 @@ defmodule Countriex.Data do
         nationality: "",
         number: "010",
         postal_code: false,
+        postal_code_format: nil,
         region: "",
         start_of_week: "monday",
         subregion: "",
@@ -453,10 +492,10 @@ defmodule Countriex.Data do
          "Antártida",
          "南極"],
         vat_rates: nil,
+        vehicle_registration_code: nil,
         world_region: "AMER"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: "{{recipient}}\n{{street}}\n{{postalcode}} {{city}}\n{{region}}\n{{country}}",
         alpha2: "AR",
         alpha3: "ARG",
@@ -466,8 +505,11 @@ defmodule Countriex.Data do
         currency_code: "ARS",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
         g20_member: true,
+        g7_member: nil,
         gec: "AR",
         geo: %Countriex.Geo{
           latitude: -38.416097,
@@ -480,6 +522,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "ARG",
         iso_long_name: "The Argentine Republic",
+        iso_short_name_lower_case: nil,
         languages_official: ["es",
          "gn"],
         languages_spoken: ["es",
@@ -509,8 +552,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "RA",
         world_region: "AMER"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "AS",
         alpha3: "ASM",
@@ -520,7 +562,11 @@ defmodule Countriex.Data do
         currency_code: "USD",
         distance_unit: "MI",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "AQ",
         geo: %Countriex.Geo{
           latitude: -14.270972,
@@ -533,6 +579,7 @@ defmodule Countriex.Data do
         international_prefix: "011",
         ioc: "ASA",
         iso_long_name: "The Territory of American Samoa",
+        iso_short_name_lower_case: nil,
         languages_official: ["en",
          "sm"],
         languages_spoken: ["en",
@@ -558,10 +605,10 @@ defmodule Countriex.Data do
          "アメリカ領サモア",
          "Amerikaans Samoa"],
         vat_rates: nil,
+        vehicle_registration_code: nil,
         world_region: "APAC"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: "{{recipient}}\n{{street}}\n{{postalcode}} {{city}}\n{{country}}",
         alpha2: "AT",
         alpha3: "AUT",
@@ -571,7 +618,11 @@ defmodule Countriex.Data do
         currency_code: "EUR",
         distance_unit: "KM",
         eea_member: true,
+        esm_member: nil,
         eu_member: true,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "AU",
         geo: %Countriex.Geo{
           latitude: 47.516231,
@@ -584,6 +635,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "AUT",
         iso_long_name: "The Republic of Austria",
+        iso_short_name_lower_case: nil,
         languages_official: ["de"],
         languages_spoken: ["de"],
         name: "Austria",
@@ -622,8 +674,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "A",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: "{{recipient}}\n{{street}}\n{{city}} {{region_short}} {{postalcode}}\n{{country}}",
         alpha2: "AU",
         alpha3: "AUS",
@@ -633,8 +684,11 @@ defmodule Countriex.Data do
         currency_code: "AUD",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
         g20_member: true,
+        g7_member: nil,
         gec: "AS",
         geo: %Countriex.Geo{
           latitude: -25.274398,
@@ -647,6 +701,7 @@ defmodule Countriex.Data do
         international_prefix: "0011",
         ioc: "AUS",
         iso_long_name: "The Commonwealth of Australia",
+        iso_short_name_lower_case: nil,
         languages_official: ["en"],
         languages_spoken: ["en"],
         name: "Australia",
@@ -678,8 +733,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "AUS",
         world_region: "APAC"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "AW",
         alpha3: "ABW",
@@ -689,7 +743,11 @@ defmodule Countriex.Data do
         currency_code: "AWG",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "AA",
         geo: %Countriex.Geo{
           latitude: 12.52111,
@@ -702,6 +760,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "ARU",
         iso_long_name: "Aruba",
+        iso_short_name_lower_case: nil,
         languages_official: ["nl"],
         languages_spoken: ["nl"],
         name: "Aruba",
@@ -712,6 +771,7 @@ defmodule Countriex.Data do
         nationality: "Aruban",
         number: "533",
         postal_code: false,
+        postal_code_format: nil,
         region: "Americas",
         start_of_week: "monday",
         subregion: "Caribbean",
@@ -723,8 +783,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "ARU",
         world_region: "AMER"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "AX",
         alpha3: "ALA",
@@ -734,8 +793,11 @@ defmodule Countriex.Data do
         currency_code: "EUR",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: true,
         euvat_member: false,
+        g20_member: nil,
+        g7_member: nil,
         gec: nil,
         geo: %Countriex.Geo{
           latitude: 60.1785247,
@@ -748,6 +810,7 @@ defmodule Countriex.Data do
         international_prefix: "",
         ioc: nil,
         iso_long_name: "Åland",
+        iso_short_name_lower_case: nil,
         languages_official: ["sv"],
         languages_spoken: ["sv"],
         name: "Åland Islands",
@@ -772,8 +835,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "AX",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "AZ",
         alpha3: "AZE",
@@ -783,7 +845,11 @@ defmodule Countriex.Data do
         currency_code: "AZN",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "AJ",
         geo: %Countriex.Geo{
           latitude: 40.143105,
@@ -796,6 +862,7 @@ defmodule Countriex.Data do
         international_prefix: "810",
         ioc: "AZE",
         iso_long_name: "The Republic of Azerbaijan",
+        iso_short_name_lower_case: nil,
         languages_official: ["az",
          "hy"],
         languages_spoken: ["az",
@@ -825,8 +892,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "AZ",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: "{{recipient}}\n{{street}}\n{{postalcode}} {{city}}\n{{country}}",
         alpha2: "BA",
         alpha3: "BIH",
@@ -836,7 +902,11 @@ defmodule Countriex.Data do
         currency_code: "BAM",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "BK",
         geo: %Countriex.Geo{
           latitude: 43.915886,
@@ -849,6 +919,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "BIH",
         iso_long_name: "Bosnia and Herzegovina",
+        iso_short_name_lower_case: nil,
         languages_official: ["bs",
          "hr",
          "sr"],
@@ -880,8 +951,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "BIH",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "BB",
         alpha3: "BRB",
@@ -891,7 +961,11 @@ defmodule Countriex.Data do
         currency_code: "BBD",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "BB",
         geo: %Countriex.Geo{
           latitude: 13.193887,
@@ -904,6 +978,7 @@ defmodule Countriex.Data do
         international_prefix: "011",
         ioc: "BAR",
         iso_long_name: "Barbados",
+        iso_short_name_lower_case: nil,
         languages_official: ["en"],
         languages_spoken: ["en"],
         name: "Barbados",
@@ -927,8 +1002,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "BDS",
         world_region: "AMER"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "BD",
         alpha3: "BGD",
@@ -938,7 +1012,11 @@ defmodule Countriex.Data do
         currency_code: "BDT",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "BG",
         geo: %Countriex.Geo{
           latitude: 23.684994,
@@ -951,6 +1029,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "BAN",
         iso_long_name: "The People's Republic of Bangladesh",
+        iso_short_name_lower_case: nil,
         languages_official: ["bn"],
         languages_spoken: ["bn"],
         name: "Bangladesh",
@@ -974,8 +1053,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "BD",
         world_region: "APAC"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: "{{recipient}}\n{{street}}\n{{postalcode}} {{city}}\n{{country}}",
         alpha2: "BE",
         alpha3: "BEL",
@@ -985,7 +1063,11 @@ defmodule Countriex.Data do
         currency_code: "EUR",
         distance_unit: "KM",
         eea_member: true,
+        esm_member: nil,
         eu_member: true,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "BE",
         geo: %Countriex.Geo{
           latitude: 50.503887,
@@ -998,6 +1080,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "BEL",
         iso_long_name: "The Kingdom of Belgium",
+        iso_short_name_lower_case: nil,
         languages_official: ["nl",
          "fr",
          "de"],
@@ -1035,8 +1118,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "B",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "BF",
         alpha3: "BFA",
@@ -1046,7 +1128,11 @@ defmodule Countriex.Data do
         currency_code: "XOF",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "UV",
         geo: %Countriex.Geo{
           latitude: 12.238333,
@@ -1059,6 +1145,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "BUR",
         iso_long_name: "Burkina Faso",
+        iso_short_name_lower_case: nil,
         languages_official: ["fr",
          "ff"],
         languages_spoken: ["fr",
@@ -1071,6 +1158,7 @@ defmodule Countriex.Data do
         nationality: "Burkinabe",
         number: "854",
         postal_code: false,
+        postal_code_format: nil,
         region: "Africa",
         start_of_week: "monday",
         subregion: "Western Africa",
@@ -1082,8 +1170,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "BF",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: "{{recipient}}\n{{street}}\n{{postalcode}} {{city}}\n{{country}}",
         alpha2: "BG",
         alpha3: "BGR",
@@ -1093,7 +1180,11 @@ defmodule Countriex.Data do
         currency_code: "EUR",
         distance_unit: "KM",
         eea_member: true,
+        esm_member: nil,
         eu_member: true,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "BU",
         geo: %Countriex.Geo{
           latitude: 42.733883,
@@ -1106,6 +1197,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "BUL",
         iso_long_name: "The Republic of Bulgaria",
+        iso_short_name_lower_case: nil,
         languages_official: ["bg"],
         languages_spoken: ["bg"],
         name: "Bulgaria",
@@ -1139,8 +1231,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "BG",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: "{{recipient}}\n{{street}}\n{{postalcode}} {{city}}\n{{country}}",
         alpha2: "BH",
         alpha3: "BHR",
@@ -1150,7 +1241,11 @@ defmodule Countriex.Data do
         currency_code: "BHD",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "BA",
         geo: %Countriex.Geo{
           latitude: 26.0667,
@@ -1163,6 +1258,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "BRN",
         iso_long_name: "The Kingdom of Bahrain",
+        iso_short_name_lower_case: nil,
         languages_official: ["ar"],
         languages_spoken: ["ar"],
         name: "Bahrain",
@@ -1188,8 +1284,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "BRN",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "BI",
         alpha3: "BDI",
@@ -1199,7 +1294,11 @@ defmodule Countriex.Data do
         currency_code: "BIF",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "BY",
         geo: %Countriex.Geo{
           latitude: -3.373056,
@@ -1212,6 +1311,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "BDI",
         iso_long_name: "The Republic of Burundi",
+        iso_short_name_lower_case: nil,
         languages_official: ["fr",
          "rn"],
         languages_spoken: ["fr",
@@ -1224,6 +1324,7 @@ defmodule Countriex.Data do
         nationality: "Burundian",
         number: "108",
         postal_code: false,
+        postal_code_format: nil,
         region: "Africa",
         start_of_week: "monday",
         subregion: "Eastern Africa",
@@ -1235,8 +1336,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "RU",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "BJ",
         alpha3: "BEN",
@@ -1246,7 +1346,11 @@ defmodule Countriex.Data do
         currency_code: "XOF",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "BN",
         geo: %Countriex.Geo{
           latitude: 9.30769,
@@ -1259,6 +1363,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "BEN",
         iso_long_name: "The Republic of Benin",
+        iso_short_name_lower_case: nil,
         languages_official: ["fr"],
         languages_spoken: ["fr"],
         name: "Benin",
@@ -1269,6 +1374,7 @@ defmodule Countriex.Data do
         nationality: "Beninese",
         number: "204",
         postal_code: false,
+        postal_code_format: nil,
         region: "Africa",
         start_of_week: "monday",
         subregion: "Western Africa",
@@ -1281,8 +1387,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "BJ",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "BL",
         alpha3: "BLM",
@@ -1292,7 +1397,11 @@ defmodule Countriex.Data do
         currency_code: "EUR",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "TB",
         geo: %Countriex.Geo{
           latitude: 17.9,
@@ -1305,6 +1414,7 @@ defmodule Countriex.Data do
         international_prefix: "",
         ioc: nil,
         iso_long_name: "The Collectivity of Saint-Barthélemy",
+        iso_short_name_lower_case: nil,
         languages_official: ["fr"],
         languages_spoken: ["fr"],
         name: "Saint Barthélemy",
@@ -1325,10 +1435,10 @@ defmodule Countriex.Data do
          "Saint-Barthélemy",
          "サン・バルテルミー"],
         vat_rates: nil,
+        vehicle_registration_code: nil,
         world_region: "APAC"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "BM",
         alpha3: "BMU",
@@ -1338,7 +1448,11 @@ defmodule Countriex.Data do
         currency_code: "BMD",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "BD",
         geo: %Countriex.Geo{
           latitude: 32.3078,
@@ -1351,6 +1465,7 @@ defmodule Countriex.Data do
         international_prefix: "011",
         ioc: "BER",
         iso_long_name: "Bermuda",
+        iso_short_name_lower_case: nil,
         languages_official: ["en"],
         languages_spoken: ["en"],
         name: "Bermuda",
@@ -1372,10 +1487,10 @@ defmodule Countriex.Data do
          "Bermudas",
          "バミューダ"],
         vat_rates: nil,
+        vehicle_registration_code: nil,
         world_region: "AMER"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "BN",
         alpha3: "BRN",
@@ -1385,7 +1500,11 @@ defmodule Countriex.Data do
         currency_code: "BND",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "BX",
         geo: %Countriex.Geo{
           latitude: 4.535277,
@@ -1398,6 +1517,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "BRU",
         iso_long_name: "The Nation of Brunei, the Abode of Peace",
+        iso_short_name_lower_case: nil,
         languages_official: ["ms"],
         languages_spoken: ["ms"],
         name: "Brunei Darussalam",
@@ -1420,8 +1540,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "BRU",
         world_region: "APAC"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "BO",
         alpha3: "BOL",
@@ -1431,7 +1550,11 @@ defmodule Countriex.Data do
         currency_code: "BOB",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "BL",
         geo: %Countriex.Geo{
           latitude: -16.290154,
@@ -1444,6 +1567,7 @@ defmodule Countriex.Data do
         international_prefix: "0010",
         ioc: "BOL",
         iso_long_name: "The Plurinational State of Bolivia",
+        iso_short_name_lower_case: nil,
         languages_official: ["es",
          "ay",
          "qu"],
@@ -1458,6 +1582,7 @@ defmodule Countriex.Data do
         nationality: "Bolivian",
         number: "068",
         postal_code: false,
+        postal_code_format: nil,
         region: "Americas",
         start_of_week: "monday",
         subregion: "South America",
@@ -1471,8 +1596,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "BOL",
         world_region: "AMER"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "BQ",
         alpha3: "BES",
@@ -1482,7 +1606,11 @@ defmodule Countriex.Data do
         currency_code: "USD",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: nil,
         geo: %Countriex.Geo{
           latitude: 12.1783611,
@@ -1495,6 +1623,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: nil,
         iso_long_name: "Bonaire, Sint Eustatius and Saba",
+        iso_short_name_lower_case: nil,
         languages_official: ["nl",
          "en"],
         languages_spoken: ["nl",
@@ -1507,6 +1636,7 @@ defmodule Countriex.Data do
         nationality: "Dutch",
         number: "535",
         postal_code: false,
+        postal_code_format: nil,
         region: "Americas",
         start_of_week: "monday",
         subregion: "Caribbean",
@@ -1517,10 +1647,10 @@ defmodule Countriex.Data do
          "Caribisch Nederland",
          "ボネール、シント・ユースタティウスおよびサバ"],
         vat_rates: nil,
+        vehicle_registration_code: nil,
         world_region: "APAC"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: "{{recipient}}\n{{street}}\n{{postalcode}} {{city}} {{region_short}}\n{{country}}",
         alpha2: "BR",
         alpha3: "BRA",
@@ -1530,8 +1660,11 @@ defmodule Countriex.Data do
         currency_code: "BRL",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
         g20_member: true,
+        g7_member: nil,
         gec: "BR",
         geo: %Countriex.Geo{
           latitude: -14.235004,
@@ -1544,6 +1677,7 @@ defmodule Countriex.Data do
         international_prefix: "0014",
         ioc: "BRA",
         iso_long_name: "The Federative Republic of Brazil",
+        iso_short_name_lower_case: nil,
         languages_official: ["pt"],
         languages_spoken: ["pt"],
         name: "Brazil",
@@ -1577,8 +1711,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "BR",
         world_region: "AMER"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "BS",
         alpha3: "BHS",
@@ -1588,7 +1721,11 @@ defmodule Countriex.Data do
         currency_code: "BSD",
         distance_unit: "MI",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "BF",
         geo: %Countriex.Geo{
           latitude: 25.03428,
@@ -1612,6 +1749,7 @@ defmodule Countriex.Data do
         nationality: "Bahamian",
         number: "044",
         postal_code: false,
+        postal_code_format: nil,
         region: "Americas",
         start_of_week: "monday",
         subregion: "Caribbean",
@@ -1624,8 +1762,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "BS",
         world_region: "AMER"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "BT",
         alpha3: "BTN",
@@ -1635,7 +1772,11 @@ defmodule Countriex.Data do
         currency_code: "BTN",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "BT",
         geo: %Countriex.Geo{
           latitude: 27.514162,
@@ -1648,6 +1789,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "BHU",
         iso_long_name: "The Kingdom of Bhutan",
+        iso_short_name_lower_case: nil,
         languages_official: ["dz"],
         languages_spoken: ["dz"],
         name: "Bhutan",
@@ -1673,8 +1815,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "BHT",
         world_region: "APAC"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "BV",
         alpha3: "BVT",
@@ -1684,7 +1825,11 @@ defmodule Countriex.Data do
         currency_code: "NOK",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "BV",
         geo: %Countriex.Geo{
           latitude: -54.4207915,
@@ -1697,6 +1842,7 @@ defmodule Countriex.Data do
         international_prefix: "",
         ioc: nil,
         iso_long_name: "Bouvet Island",
+        iso_short_name_lower_case: nil,
         languages_official: [],
         languages_spoken: [],
         name: "Bouvet Island",
@@ -1707,6 +1853,7 @@ defmodule Countriex.Data do
         nationality: "",
         number: "074",
         postal_code: false,
+        postal_code_format: nil,
         region: "",
         start_of_week: "monday",
         subregion: "",
@@ -1717,10 +1864,10 @@ defmodule Countriex.Data do
          "ブーベ島",
          "Bouveteiland"],
         vat_rates: nil,
+        vehicle_registration_code: nil,
         world_region: "APAC"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "BW",
         alpha3: "BWA",
@@ -1730,7 +1877,11 @@ defmodule Countriex.Data do
         currency_code: "BWP",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "BC",
         geo: %Countriex.Geo{
           latitude: -22.328474,
@@ -1743,6 +1894,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "BOT",
         iso_long_name: "The Republic of Botswana",
+        iso_short_name_lower_case: nil,
         languages_official: ["en",
          "tn"],
         languages_spoken: ["en",
@@ -1755,6 +1907,7 @@ defmodule Countriex.Data do
         nationality: "Motswana",
         number: "072",
         postal_code: false,
+        postal_code_format: nil,
         region: "Africa",
         start_of_week: "monday",
         subregion: "Southern Africa",
@@ -1766,8 +1919,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "RB",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "BY",
         alpha3: "BLR",
@@ -1777,7 +1929,11 @@ defmodule Countriex.Data do
         currency_code: "BYN",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "BO",
         geo: %Countriex.Geo{
           latitude: 53.709807,
@@ -1790,6 +1946,7 @@ defmodule Countriex.Data do
         international_prefix: "810",
         ioc: "BLR",
         iso_long_name: "The Republic of Belarus",
+        iso_short_name_lower_case: nil,
         languages_official: ["be",
          "ru"],
         languages_spoken: ["be",
@@ -1819,8 +1976,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "BY",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "BZ",
         alpha3: "BLZ",
@@ -1830,7 +1986,11 @@ defmodule Countriex.Data do
         currency_code: "BZD",
         distance_unit: "MI",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "BH",
         geo: %Countriex.Geo{
           latitude: 17.189877,
@@ -1843,6 +2003,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "BIZ",
         iso_long_name: "Belize",
+        iso_short_name_lower_case: nil,
         languages_official: ["en",
          "es"],
         languages_spoken: ["en",
@@ -1855,6 +2016,7 @@ defmodule Countriex.Data do
         nationality: "Belizean",
         number: "084",
         postal_code: false,
+        postal_code_format: nil,
         region: "Americas",
         start_of_week: "monday",
         subregion: "Central America",
@@ -1867,8 +2029,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "BZ",
         world_region: "AMER"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: "{{recipient}}\n{{street}}\n{{city}} {{region_short}} {{postalcode}}\n{{country}}",
         alpha2: "CA",
         alpha3: "CAN",
@@ -1878,7 +2039,9 @@ defmodule Countriex.Data do
         currency_code: "CAD",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
         g20_member: true,
         g7_member: true,
         gec: "CA",
@@ -1893,6 +2056,7 @@ defmodule Countriex.Data do
         international_prefix: "011",
         ioc: "CAN",
         iso_long_name: "Canada",
+        iso_short_name_lower_case: nil,
         languages_official: ["en",
          "fr"],
         languages_spoken: ["en",
@@ -1919,8 +2083,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "CDN",
         world_region: "AMER"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "CC",
         alpha3: "CCK",
@@ -1930,7 +2093,11 @@ defmodule Countriex.Data do
         currency_code: "AUD",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "CK",
         geo: %Countriex.Geo{
           latitude: -12.164165,
@@ -1965,10 +2132,10 @@ defmodule Countriex.Data do
          "ココス（キーリング）諸島",
          "Cocoseilanden"],
         vat_rates: nil,
+        vehicle_registration_code: nil,
         world_region: "APAC"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "CD",
         alpha3: "COD",
@@ -1978,7 +2145,11 @@ defmodule Countriex.Data do
         currency_code: "CDF",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "CG",
         geo: %Countriex.Geo{
           latitude: -4.038333,
@@ -2010,6 +2181,7 @@ defmodule Countriex.Data do
         nationality: "Congolese",
         number: "180",
         postal_code: false,
+        postal_code_format: nil,
         region: "Africa",
         start_of_week: "monday",
         subregion: "Middle Africa",
@@ -2028,8 +2200,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "CGO",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "CF",
         alpha3: "CAF",
@@ -2039,7 +2210,11 @@ defmodule Countriex.Data do
         currency_code: "XAF",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "CT",
         geo: %Countriex.Geo{
           latitude: 6.611110999999999,
@@ -2065,6 +2240,7 @@ defmodule Countriex.Data do
         nationality: "Central African",
         number: "140",
         postal_code: false,
+        postal_code_format: nil,
         region: "Africa",
         start_of_week: "monday",
         subregion: "Middle Africa",
@@ -2080,8 +2256,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "RCA",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "CG",
         alpha3: "COG",
@@ -2091,7 +2266,11 @@ defmodule Countriex.Data do
         currency_code: "XAF",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "CF",
         geo: %Countriex.Geo{
           latitude: -0.228021,
@@ -2117,6 +2296,7 @@ defmodule Countriex.Data do
         nationality: "Congolese",
         number: "178",
         postal_code: false,
+        postal_code_format: nil,
         region: "Africa",
         start_of_week: "monday",
         subregion: "Middle Africa",
@@ -2132,8 +2312,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "RCB",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: "{{recipient}}\n{{street}}\n{{postalcode}} {{city}}\n{{country}}",
         alpha2: "CH",
         alpha3: "CHE",
@@ -2145,6 +2324,9 @@ defmodule Countriex.Data do
         eea_member: nil,
         esm_member: true,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "SZ",
         geo: %Countriex.Geo{
           latitude: 46.818188,
@@ -2157,6 +2339,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "SUI",
         iso_long_name: "The Swiss Confederation",
+        iso_short_name_lower_case: nil,
         languages_official: ["de",
          "fr",
          "it",
@@ -2196,8 +2379,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "CH",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "CI",
         alpha3: "CIV",
@@ -2207,7 +2389,11 @@ defmodule Countriex.Data do
         currency_code: "XOF",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "IV",
         geo: %Countriex.Geo{
           latitude: 7.539988999999999,
@@ -2220,6 +2406,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "CIV",
         iso_long_name: "The Republic of Côte d'Ivoire",
+        iso_short_name_lower_case: nil,
         languages_official: ["fr"],
         languages_spoken: ["fr"],
         name: "Côte d'Ivoire",
@@ -2230,6 +2417,7 @@ defmodule Countriex.Data do
         nationality: "Ivorian",
         number: "384",
         postal_code: false,
+        postal_code_format: nil,
         region: "Africa",
         start_of_week: "monday",
         subregion: "Western Africa",
@@ -2246,8 +2434,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "CI",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "CK",
         alpha3: "COK",
@@ -2257,7 +2444,11 @@ defmodule Countriex.Data do
         currency_code: "NZD",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "CW",
         geo: %Countriex.Geo{
           latitude: -21.236736,
@@ -2281,6 +2472,7 @@ defmodule Countriex.Data do
         nationality: "Cook Islander",
         number: "184",
         postal_code: false,
+        postal_code_format: nil,
         region: "Oceania",
         start_of_week: "monday",
         subregion: "Polynesia",
@@ -2293,10 +2485,10 @@ defmodule Countriex.Data do
          "クック諸島",
          "Cookeilanden"],
         vat_rates: nil,
+        vehicle_registration_code: nil,
         world_region: "APAC"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "CL",
         alpha3: "CHL",
@@ -2306,7 +2498,11 @@ defmodule Countriex.Data do
         currency_code: "CLP",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "CI",
         geo: %Countriex.Geo{
           latitude: -35.675147,
@@ -2319,6 +2515,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "CHI",
         iso_long_name: "The Republic of Chile",
+        iso_short_name_lower_case: nil,
         languages_official: ["es"],
         languages_spoken: ["es"],
         name: "Chile",
@@ -2348,8 +2545,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "RCH",
         world_region: "AMER"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "CM",
         alpha3: "CMR",
@@ -2359,7 +2555,11 @@ defmodule Countriex.Data do
         currency_code: "XAF",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "CM",
         geo: %Countriex.Geo{
           latitude: 7.369721999999999,
@@ -2372,6 +2572,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "CMR",
         iso_long_name: "The Republic of Cameroon",
+        iso_short_name_lower_case: nil,
         languages_official: ["en",
          "fr"],
         languages_spoken: ["en",
@@ -2384,6 +2585,7 @@ defmodule Countriex.Data do
         nationality: "Cameroonian",
         number: "120",
         postal_code: false,
+        postal_code_format: nil,
         region: "Africa",
         start_of_week: "monday",
         subregion: "Middle Africa",
@@ -2399,8 +2601,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "CAM",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: "{{recipient}}\n{{street}}\n{{postalcode}} {{city}} {{region_short}}\n{{country}}",
         alpha2: "CN",
         alpha3: "CHN",
@@ -2410,8 +2611,11 @@ defmodule Countriex.Data do
         currency_code: "CNY",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
         g20_member: true,
+        g7_member: nil,
         gec: "CH",
         geo: %Countriex.Geo{
           latitude: 35.86166,
@@ -2424,6 +2628,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "CHN",
         iso_long_name: "The People's Republic of China",
+        iso_short_name_lower_case: nil,
         languages_official: ["zh"],
         languages_spoken: ["zh"],
         name: "China",
@@ -2451,8 +2656,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "CHN*",
         world_region: "APAC"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "CO",
         alpha3: "COL",
@@ -2462,7 +2666,11 @@ defmodule Countriex.Data do
         currency_code: "COP",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "CO",
         geo: %Countriex.Geo{
           latitude: 4.570868,
@@ -2475,6 +2683,7 @@ defmodule Countriex.Data do
         international_prefix: "005",
         ioc: "COL",
         iso_long_name: "The Republic of Colombia",
+        iso_short_name_lower_case: nil,
         languages_official: ["es"],
         languages_spoken: ["es"],
         name: "Colombia",
@@ -2500,8 +2709,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "CO",
         world_region: "AMER"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "CR",
         alpha3: "CRI",
@@ -2511,7 +2719,11 @@ defmodule Countriex.Data do
         currency_code: "CRC",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "CS",
         geo: %Countriex.Geo{
           latitude: 9.748916999999999,
@@ -2524,6 +2736,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "CRC",
         iso_long_name: "The Republic of Costa Rica",
+        iso_short_name_lower_case: nil,
         languages_official: ["es"],
         languages_spoken: ["es"],
         name: "Costa Rica",
@@ -2546,8 +2759,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "CR",
         world_region: "AMER"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "CU",
         alpha3: "CUB",
@@ -2557,7 +2769,11 @@ defmodule Countriex.Data do
         currency_code: "CUP",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "CU",
         geo: %Countriex.Geo{
           latitude: 21.521757,
@@ -2570,6 +2786,7 @@ defmodule Countriex.Data do
         international_prefix: "119",
         ioc: "CUB",
         iso_long_name: "The Republic of Cuba",
+        iso_short_name_lower_case: nil,
         languages_official: ["es"],
         languages_spoken: ["es"],
         name: "Cuba",
@@ -2593,8 +2810,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "C",
         world_region: "AMER"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "CV",
         alpha3: "CPV",
@@ -2604,7 +2820,11 @@ defmodule Countriex.Data do
         currency_code: "CVE",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "CV",
         geo: %Countriex.Geo{
           latitude: 16.5388,
@@ -2617,6 +2837,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "CPV",
         iso_long_name: "The Republic of Cabo Verde",
+        iso_short_name_lower_case: nil,
         languages_official: ["pt"],
         languages_spoken: ["pt"],
         name: "Cabo Verde",
@@ -2643,8 +2864,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "CV",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "CW",
         alpha3: "CUW",
@@ -2654,7 +2874,11 @@ defmodule Countriex.Data do
         currency_code: "XCG",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "UC",
         geo: %Countriex.Geo{
           latitude: 12.16957,
@@ -2667,6 +2891,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: nil,
         iso_long_name: "The Country of Curaçao",
+        iso_short_name_lower_case: nil,
         languages_official: ["nl"],
         languages_spoken: ["nl"],
         name: "Curaçao",
@@ -2677,6 +2902,7 @@ defmodule Countriex.Data do
         nationality: "Dutch",
         number: "531",
         postal_code: false,
+        postal_code_format: nil,
         region: "Americas",
         start_of_week: "monday",
         subregion: "Caribbean",
@@ -2685,10 +2911,10 @@ defmodule Countriex.Data do
         unofficial_names: ["Curaçao",
          "キュラソー島"],
         vat_rates: nil,
+        vehicle_registration_code: nil,
         world_region: "AMER"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "CX",
         alpha3: "CXR",
@@ -2698,7 +2924,11 @@ defmodule Countriex.Data do
         currency_code: "AUD",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "KT",
         geo: %Countriex.Geo{
           latitude: -10.447525,
@@ -2711,6 +2941,7 @@ defmodule Countriex.Data do
         international_prefix: "0011",
         ioc: nil,
         iso_long_name: "The Territory of Christmas Island",
+        iso_short_name_lower_case: nil,
         languages_official: ["en",
          "zh",
          "ms"],
@@ -2736,10 +2967,10 @@ defmodule Countriex.Data do
          "クリスマス島",
          "Christmaseiland"],
         vat_rates: nil,
+        vehicle_registration_code: nil,
         world_region: "APAC"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "CY",
         alpha3: "CYP",
@@ -2749,7 +2980,11 @@ defmodule Countriex.Data do
         currency_code: "EUR",
         distance_unit: "KM",
         eea_member: true,
+        esm_member: nil,
         eu_member: true,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "CY",
         geo: %Countriex.Geo{
           latitude: 35.126413,
@@ -2762,6 +2997,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "CYP",
         iso_long_name: "The Republic of Cyprus",
+        iso_short_name_lower_case: nil,
         languages_official: ["el",
          "tr",
          "hy"],
@@ -2797,8 +3033,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "CY",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: "{{recipient}}\n{{street}}\n{{postalcode}} {{city}}\n{{country}}",
         alpha2: "CZ",
         alpha3: "CZE",
@@ -2808,7 +3043,11 @@ defmodule Countriex.Data do
         currency_code: "CZK",
         distance_unit: "KM",
         eea_member: true,
+        esm_member: nil,
         eu_member: true,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "EZ",
         geo: %Countriex.Geo{
           latitude: 49.81749199999999,
@@ -2821,6 +3060,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "CZE",
         iso_long_name: "The Czech Republic",
+        iso_short_name_lower_case: nil,
         languages_official: ["cs"],
         languages_spoken: ["cs"],
         name: "Czechia",
@@ -2854,8 +3094,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "CZ",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: "{{recipient}}\n{{street}}\n{{postalcode}} {{city}}\n{{country}}",
         alpha2: "DE",
         alpha3: "DEU",
@@ -2865,7 +3104,9 @@ defmodule Countriex.Data do
         currency_code: "EUR",
         distance_unit: "KM",
         eea_member: true,
+        esm_member: nil,
         eu_member: true,
+        euvat_member: nil,
         g20_member: true,
         g7_member: true,
         gec: "GM",
@@ -2880,6 +3121,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "GER",
         iso_long_name: "The Federal Republic of Germany",
+        iso_short_name_lower_case: nil,
         languages_official: ["de"],
         languages_spoken: ["de"],
         name: "Germany",
@@ -2919,8 +3161,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "D",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "DJ",
         alpha3: "DJI",
@@ -2930,7 +3171,11 @@ defmodule Countriex.Data do
         currency_code: "DJF",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "DJ",
         geo: %Countriex.Geo{
           latitude: 11.825138,
@@ -2943,6 +3188,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "DJI",
         iso_long_name: "The Republic of Djibouti",
+        iso_short_name_lower_case: nil,
         languages_official: ["ar",
          "fr"],
         languages_spoken: ["ar",
@@ -2955,6 +3201,7 @@ defmodule Countriex.Data do
         nationality: "Djibouti",
         number: "262",
         postal_code: false,
+        postal_code_format: nil,
         region: "Africa",
         start_of_week: "monday",
         subregion: "Eastern Africa",
@@ -2968,8 +3215,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "DJI",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: "{{recipient}}\n{{street}}\n{{postalcode}} {{city}}\n{{country}}",
         alpha2: "DK",
         alpha3: "DNK",
@@ -2979,7 +3225,11 @@ defmodule Countriex.Data do
         currency_code: "DKK",
         distance_unit: "KM",
         eea_member: true,
+        esm_member: nil,
         eu_member: true,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "DA",
         geo: %Countriex.Geo{
           latitude: 56.26392,
@@ -2992,6 +3242,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "DEN",
         iso_long_name: "The Kingdom of Denmark",
+        iso_short_name_lower_case: nil,
         languages_official: ["da"],
         languages_spoken: ["da"],
         name: "Denmark",
@@ -3023,8 +3274,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "DK",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "DM",
         alpha3: "DMA",
@@ -3034,7 +3284,11 @@ defmodule Countriex.Data do
         currency_code: "XCD",
         distance_unit: "MI",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "DO",
         geo: %Countriex.Geo{
           latitude: 15.414999,
@@ -3047,6 +3301,7 @@ defmodule Countriex.Data do
         international_prefix: "011",
         ioc: "DMA",
         iso_long_name: "The Commonwealth of Dominica",
+        iso_short_name_lower_case: nil,
         languages_official: ["en"],
         languages_spoken: ["en"],
         name: "Dominica",
@@ -3057,6 +3312,7 @@ defmodule Countriex.Data do
         nationality: "Dominican",
         number: "212",
         postal_code: false,
+        postal_code_format: nil,
         region: "Americas",
         start_of_week: "monday",
         subregion: "Caribbean",
@@ -3068,8 +3324,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "WD",
         world_region: "AMER"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "DO",
         alpha3: "DOM",
@@ -3079,7 +3334,11 @@ defmodule Countriex.Data do
         currency_code: "DOP",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "DR",
         geo: %Countriex.Geo{
           latitude: 18.735693,
@@ -3119,8 +3378,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "DOM",
         world_region: "AMER"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "DZ",
         alpha3: "DZA",
@@ -3130,7 +3388,11 @@ defmodule Countriex.Data do
         currency_code: "DZD",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "AG",
         geo: %Countriex.Geo{
           latitude: 28.033886,
@@ -3143,6 +3405,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "ALG",
         iso_long_name: "The People's Democratic Republic of Algeria",
+        iso_short_name_lower_case: nil,
         languages_official: ["ar"],
         languages_spoken: ["ar"],
         name: "Algeria",
@@ -3170,8 +3433,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "DZ",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "EC",
         alpha3: "ECU",
@@ -3181,7 +3443,11 @@ defmodule Countriex.Data do
         currency_code: "USD",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "EC",
         geo: %Countriex.Geo{
           latitude: -1.831239,
@@ -3194,6 +3460,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "ECU",
         iso_long_name: "The Republic of Ecuador",
+        iso_short_name_lower_case: nil,
         languages_official: ["es"],
         languages_spoken: ["es"],
         name: "Ecuador",
@@ -3218,8 +3485,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "EC",
         world_region: "AMER"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "EE",
         alpha3: "EST",
@@ -3229,7 +3495,11 @@ defmodule Countriex.Data do
         currency_code: "EUR",
         distance_unit: "KM",
         eea_member: true,
+        esm_member: nil,
         eu_member: true,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "EN",
         geo: %Countriex.Geo{
           latitude: 58.595272,
@@ -3242,6 +3512,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "EST",
         iso_long_name: "The Republic of Estonia",
+        iso_short_name_lower_case: nil,
         languages_official: ["et"],
         languages_spoken: ["et"],
         name: "Estonia",
@@ -3273,8 +3544,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "EST",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: "{{recipient}}\n{{street}}\n{{postalcode}} {{city}}\n{{country}}",
         alpha2: "EG",
         alpha3: "EGY",
@@ -3284,7 +3554,11 @@ defmodule Countriex.Data do
         currency_code: "EGP",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "EG",
         geo: %Countriex.Geo{
           latitude: 26.820553,
@@ -3297,6 +3571,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "EGY",
         iso_long_name: "The Arab Republic of Egypt",
+        iso_short_name_lower_case: nil,
         languages_official: ["ar"],
         languages_spoken: ["ar"],
         name: "Egypt",
@@ -3324,8 +3599,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "EG",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "EH",
         alpha3: "ESH",
@@ -3335,7 +3609,11 @@ defmodule Countriex.Data do
         currency_code: "MAD",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "WI",
         geo: %Countriex.Geo{
           latitude: 24.215527,
@@ -3348,6 +3626,7 @@ defmodule Countriex.Data do
         international_prefix: "",
         ioc: nil,
         iso_long_name: "The Sahrawi Arab Democratic Republic",
+        iso_short_name_lower_case: nil,
         languages_official: ["es",
          "fr"],
         languages_spoken: ["es",
@@ -3376,8 +3655,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "WSA",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "ER",
         alpha3: "ERI",
@@ -3387,7 +3665,11 @@ defmodule Countriex.Data do
         currency_code: "ERN",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "ER",
         geo: %Countriex.Geo{
           latitude: 15.179384,
@@ -3400,6 +3682,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "ERI",
         iso_long_name: "The State of Eritrea",
+        iso_short_name_lower_case: nil,
         languages_official: ["en",
          "ar",
          "ti"],
@@ -3414,6 +3697,7 @@ defmodule Countriex.Data do
         nationality: "Eritrean",
         number: "232",
         postal_code: false,
+        postal_code_format: nil,
         region: "Africa",
         start_of_week: "monday",
         subregion: "Eastern Africa",
@@ -3427,8 +3711,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "ER",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: "{{recipient}}\n{{street}}\n{{postalcode}} {{city}}\n{{region}}\n{{country}}",
         alpha2: "ES",
         alpha3: "ESP",
@@ -3438,7 +3721,11 @@ defmodule Countriex.Data do
         currency_code: "EUR",
         distance_unit: "KM",
         eea_member: true,
+        esm_member: nil,
         eu_member: true,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "SP",
         geo: %Countriex.Geo{
           latitude: 40.46366700000001,
@@ -3451,6 +3738,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "ESP",
         iso_long_name: "The Kingdom of Spain",
+        iso_short_name_lower_case: nil,
         languages_official: ["es"],
         languages_spoken: ["es",
          "ca",
@@ -3490,8 +3778,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "E",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "ET",
         alpha3: "ETH",
@@ -3501,7 +3788,11 @@ defmodule Countriex.Data do
         currency_code: "ETB",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "ET",
         geo: %Countriex.Geo{
           latitude: 9.145000000000001,
@@ -3514,6 +3805,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "ETH",
         iso_long_name: "The Federal Democratic Republic of Ethiopia",
+        iso_short_name_lower_case: nil,
         languages_official: ["am"],
         languages_spoken: ["am"],
         name: "Ethiopia",
@@ -3540,8 +3832,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "ETH",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: "{{recipient}}\n{{street}}\n{{postalcode}} {{city}}\n{{country}}",
         alpha2: "FI",
         alpha3: "FIN",
@@ -3551,7 +3842,11 @@ defmodule Countriex.Data do
         currency_code: "EUR",
         distance_unit: "KM",
         eea_member: true,
+        esm_member: nil,
         eu_member: true,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "FI",
         geo: %Countriex.Geo{
           latitude: 61.92410999999999,
@@ -3564,6 +3859,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "FIN",
         iso_long_name: "The Republic of Finland",
+        iso_short_name_lower_case: nil,
         languages_official: ["fi",
          "sv"],
         languages_spoken: ["fi",
@@ -3597,8 +3893,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "FIN",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "FJ",
         alpha3: "FJI",
@@ -3608,7 +3903,11 @@ defmodule Countriex.Data do
         currency_code: "FJD",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "FJ",
         geo: %Countriex.Geo{
           latitude: -17.713371,
@@ -3621,6 +3920,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "FIJ",
         iso_long_name: "The Republic of Fiji",
+        iso_short_name_lower_case: nil,
         languages_official: ["en",
          "fj",
          "hi"],
@@ -3636,6 +3936,7 @@ defmodule Countriex.Data do
         nationality: "Fijian",
         number: "242",
         postal_code: false,
+        postal_code_format: nil,
         region: "Oceania",
         start_of_week: "monday",
         subregion: "Melanesia",
@@ -3649,8 +3950,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "FJI",
         world_region: "APAC"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "FK",
         alpha3: "FLK",
@@ -3660,7 +3960,11 @@ defmodule Countriex.Data do
         currency_code: "FKP",
         distance_unit: "MI",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "FK",
         geo: %Countriex.Geo{
           latitude: -51.796253,
@@ -3698,10 +4002,10 @@ defmodule Countriex.Data do
          "フォークランド（マルビナス）諸島",
          "Falklandeilanden [Islas Malvinas]"],
         vat_rates: nil,
+        vehicle_registration_code: nil,
         world_region: "AMER"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "FM",
         alpha3: "FSM",
@@ -3711,7 +4015,11 @@ defmodule Countriex.Data do
         currency_code: "USD",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "FM",
         geo: %Countriex.Geo{
           latitude: 7.425554,
@@ -3724,6 +4032,7 @@ defmodule Countriex.Data do
         international_prefix: "011",
         ioc: "FSM",
         iso_long_name: "The Federated States of Micronesia",
+        iso_short_name_lower_case: nil,
         languages_official: ["en"],
         languages_spoken: ["en"],
         name: "Micronesia (Federated States of)",
@@ -3749,8 +4058,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "FSM",
         world_region: "APAC"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "FO",
         alpha3: "FRO",
@@ -3760,7 +4068,11 @@ defmodule Countriex.Data do
         currency_code: "DKK",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "FO",
         geo: %Countriex.Geo{
           latitude: 61.89263500000001,
@@ -3800,8 +4112,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "FO",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: "{{recipient}}\n{{street}}\n{{postalcode}} {{city}}\n{{country}}",
         alpha2: "FR",
         alpha3: "FRA",
@@ -3811,7 +4122,9 @@ defmodule Countriex.Data do
         currency_code: "EUR",
         distance_unit: "KM",
         eea_member: true,
+        esm_member: nil,
         eu_member: true,
+        euvat_member: nil,
         g20_member: true,
         g7_member: true,
         gec: "FR",
@@ -3826,6 +4139,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "FRA",
         iso_long_name: "The French Republic",
+        iso_short_name_lower_case: nil,
         languages_official: ["fr"],
         languages_spoken: ["fr"],
         name: "France",
@@ -3859,8 +4173,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "F",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "GA",
         alpha3: "GAB",
@@ -3870,7 +4183,11 @@ defmodule Countriex.Data do
         currency_code: "XAF",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "GB",
         geo: %Countriex.Geo{
           latitude: -0.803689,
@@ -3883,6 +4200,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "GAB",
         iso_long_name: "The Gabonese Republic",
+        iso_short_name_lower_case: nil,
         languages_official: ["fr"],
         languages_spoken: ["fr"],
         name: "Gabon",
@@ -3895,6 +4213,7 @@ defmodule Countriex.Data do
         nationality: "Gabonese",
         number: "266",
         postal_code: false,
+        postal_code_format: nil,
         region: "Africa",
         start_of_week: "monday",
         subregion: "Middle Africa",
@@ -3908,8 +4227,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "G",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: "{{recipient}}\n{{street}}\n{{city}}\n{{region}}\n{{postalcode}}\n{{country}}",
         alpha2: "GB",
         alpha3: "GBR",
@@ -3919,7 +4237,9 @@ defmodule Countriex.Data do
         currency_code: "GBP",
         distance_unit: "MI",
         eea_member: false,
+        esm_member: nil,
         eu_member: false,
+        euvat_member: nil,
         g20_member: true,
         g7_member: true,
         gec: "UK",
@@ -3978,8 +4298,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "UK",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "GD",
         alpha3: "GRD",
@@ -3989,7 +4308,11 @@ defmodule Countriex.Data do
         currency_code: "XCD",
         distance_unit: "MI",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "GJ",
         geo: %Countriex.Geo{
           latitude: 12.1165,
@@ -4002,6 +4325,7 @@ defmodule Countriex.Data do
         international_prefix: "011",
         ioc: "GRN",
         iso_long_name: "Grenada",
+        iso_short_name_lower_case: nil,
         languages_official: ["en"],
         languages_spoken: ["en"],
         name: "Grenada",
@@ -4012,6 +4336,7 @@ defmodule Countriex.Data do
         nationality: "Grenadian",
         number: "308",
         postal_code: false,
+        postal_code_format: nil,
         region: "Americas",
         start_of_week: "monday",
         subregion: "Caribbean",
@@ -4023,8 +4348,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "WG",
         world_region: "AMER"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "GE",
         alpha3: "GEO",
@@ -4034,7 +4358,11 @@ defmodule Countriex.Data do
         currency_code: "GEL",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "GG",
         geo: %Countriex.Geo{
           latitude: 42.315407,
@@ -4047,6 +4375,7 @@ defmodule Countriex.Data do
         international_prefix: "810",
         ioc: "GEO",
         iso_long_name: "Georgia",
+        iso_short_name_lower_case: nil,
         languages_official: ["ka"],
         languages_spoken: ["ka"],
         name: "Georgia",
@@ -4072,8 +4401,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "GE",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "GF",
         alpha3: "GUF",
@@ -4083,8 +4411,11 @@ defmodule Countriex.Data do
         currency_code: "EUR",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: true,
         euvat_member: false,
+        g20_member: nil,
+        g7_member: nil,
         gec: "FG",
         geo: %Countriex.Geo{
           latitude: 3.933889,
@@ -4097,6 +4428,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: nil,
         iso_long_name: "Guyane",
+        iso_short_name_lower_case: nil,
         languages_official: ["fr"],
         languages_spoken: ["fr"],
         name: "French Guiana",
@@ -4119,10 +4451,10 @@ defmodule Countriex.Data do
          "フランス領ギアナ",
          "Frans-Guyana"],
         vat_rates: nil,
+        vehicle_registration_code: nil,
         world_region: "AMER"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "GG",
         alpha3: "GGY",
@@ -4132,7 +4464,11 @@ defmodule Countriex.Data do
         currency_code: "GBP",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "GK",
         geo: %Countriex.Geo{
           latitude: 49.4481982,
@@ -4145,6 +4481,7 @@ defmodule Countriex.Data do
         international_prefix: "",
         ioc: nil,
         iso_long_name: "The Bailiwick of Guernsey",
+        iso_short_name_lower_case: nil,
         languages_official: ["en",
          "fr"],
         languages_spoken: ["en",
@@ -4173,8 +4510,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "GBA",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "GH",
         alpha3: "GHA",
@@ -4184,7 +4520,11 @@ defmodule Countriex.Data do
         currency_code: "GHS",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "GH",
         geo: %Countriex.Geo{
           latitude: 7.946527,
@@ -4197,6 +4537,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "GHA",
         iso_long_name: "The Republic of Ghana",
+        iso_short_name_lower_case: nil,
         languages_official: ["en"],
         languages_spoken: ["en"],
         name: "Ghana",
@@ -4210,6 +4551,7 @@ defmodule Countriex.Data do
         nationality: "Ghanaian",
         number: "288",
         postal_code: false,
+        postal_code_format: nil,
         region: "Africa",
         start_of_week: "monday",
         subregion: "Western Africa",
@@ -4221,8 +4563,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "GH",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "GI",
         alpha3: "GIB",
@@ -4232,7 +4573,11 @@ defmodule Countriex.Data do
         currency_code: "GIP",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "GI",
         geo: %Countriex.Geo{
           latitude: 36.140751,
@@ -4245,6 +4590,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: nil,
         iso_long_name: "Gibraltar",
+        iso_short_name_lower_case: nil,
         languages_official: ["en"],
         languages_spoken: ["en"],
         name: "Gibraltar",
@@ -4267,8 +4613,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "GBZ",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: "{{recipient}}\n{{street}}\n{{postalcode}} {{city}}\n{{country}}",
         alpha2: "GL",
         alpha3: "GRL",
@@ -4278,7 +4623,11 @@ defmodule Countriex.Data do
         currency_code: "DKK",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "GL",
         geo: %Countriex.Geo{
           latitude: 71.706936,
@@ -4291,6 +4640,7 @@ defmodule Countriex.Data do
         international_prefix: "009",
         ioc: nil,
         iso_long_name: "Kalaallit Nunaat",
+        iso_short_name_lower_case: nil,
         languages_official: ["kl"],
         languages_spoken: ["kl"],
         name: "Greenland",
@@ -4316,8 +4666,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "KN",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "GM",
         alpha3: "GMB",
@@ -4327,7 +4676,11 @@ defmodule Countriex.Data do
         currency_code: "GMD",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "GA",
         geo: %Countriex.Geo{
           latitude: 13.443182,
@@ -4351,6 +4704,7 @@ defmodule Countriex.Data do
         nationality: "Gambian",
         number: "270",
         postal_code: false,
+        postal_code_format: nil,
         region: "Africa",
         start_of_week: "monday",
         subregion: "Western Africa",
@@ -4363,8 +4717,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "WAG",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "GN",
         alpha3: "GIN",
@@ -4374,7 +4727,11 @@ defmodule Countriex.Data do
         currency_code: "GNF",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "GV",
         geo: %Countriex.Geo{
           latitude: 9.945587,
@@ -4387,6 +4744,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "GUI",
         iso_long_name: "The Republic of Guinea",
+        iso_short_name_lower_case: nil,
         languages_official: ["fr",
          "ff"],
         languages_spoken: ["fr",
@@ -4413,8 +4771,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "RG",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "GP",
         alpha3: "GLP",
@@ -4424,8 +4781,11 @@ defmodule Countriex.Data do
         currency_code: "EUR",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: true,
         euvat_member: false,
+        g20_member: nil,
+        g7_member: nil,
         gec: "GP",
         geo: %Countriex.Geo{
           latitude: 16.265,
@@ -4438,6 +4798,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: nil,
         iso_long_name: "Guadeloupe",
+        iso_short_name_lower_case: nil,
         languages_official: ["fr"],
         languages_spoken: ["fr"],
         name: "Guadeloupe",
@@ -4458,10 +4819,10 @@ defmodule Countriex.Data do
          "Guadalupe",
          "グアドループ"],
         vat_rates: nil,
+        vehicle_registration_code: nil,
         world_region: "AMER"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "GQ",
         alpha3: "GNQ",
@@ -4471,7 +4832,11 @@ defmodule Countriex.Data do
         currency_code: "XAF",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "EK",
         geo: %Countriex.Geo{
           latitude: 1.650801,
@@ -4484,6 +4849,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "GEQ",
         iso_long_name: "The Republic of Equatorial Guinea",
+        iso_short_name_lower_case: nil,
         languages_official: ["es",
          "fr"],
         languages_spoken: ["es",
@@ -4496,6 +4862,7 @@ defmodule Countriex.Data do
         nationality: "Equatorial Guinean",
         number: "226",
         postal_code: false,
+        postal_code_format: nil,
         region: "Africa",
         start_of_week: "monday",
         subregion: "Middle Africa",
@@ -4511,8 +4878,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "GQ",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: "{{recipient}}\n{{street}}\n{{postalcode}} {{city}}\n{{country}}",
         alpha2: "GR",
         alpha3: "GRC",
@@ -4522,7 +4888,11 @@ defmodule Countriex.Data do
         currency_code: "EUR",
         distance_unit: "KM",
         eea_member: true,
+        esm_member: nil,
         eu_member: true,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "GR",
         geo: %Countriex.Geo{
           latitude: 39.074208,
@@ -4535,6 +4905,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "GRE",
         iso_long_name: "The Hellenic Republic",
+        iso_short_name_lower_case: nil,
         languages_official: ["el"],
         languages_spoken: ["el"],
         name: "Greece",
@@ -4567,8 +4938,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "GR",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "GS",
         alpha3: "SGS",
@@ -4578,7 +4948,11 @@ defmodule Countriex.Data do
         currency_code: "GBP",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "SX",
         geo: %Countriex.Geo{
           latitude: -54.429579,
@@ -4591,6 +4965,7 @@ defmodule Countriex.Data do
         international_prefix: "",
         ioc: nil,
         iso_long_name: "South Georgia and the South Sandwich Islands",
+        iso_short_name_lower_case: nil,
         languages_official: ["en"],
         languages_spoken: ["en"],
         name: "South Georgia and the South Sandwich Islands",
@@ -4613,10 +4988,10 @@ defmodule Countriex.Data do
          "サウスジョージア・サウスサンドウィッチ諸島",
          "Zuid-Georgia en Zuidelijke Sandwicheilanden"],
         vat_rates: nil,
+        vehicle_registration_code: nil,
         world_region: "AMER"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "GT",
         alpha3: "GTM",
@@ -4626,7 +5001,11 @@ defmodule Countriex.Data do
         currency_code: "GTQ",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "GT",
         geo: %Countriex.Geo{
           latitude: 15.783471,
@@ -4639,6 +5018,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "GUA",
         iso_long_name: "The Republic of Guatemala",
+        iso_short_name_lower_case: nil,
         languages_official: ["es"],
         languages_spoken: ["es"],
         name: "Guatemala",
@@ -4661,8 +5041,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "GCA",
         world_region: "AMER"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "GU",
         alpha3: "GUM",
@@ -4672,7 +5051,11 @@ defmodule Countriex.Data do
         currency_code: "USD",
         distance_unit: "MI",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "GQ",
         geo: %Countriex.Geo{
           latitude: 13.444304,
@@ -4685,6 +5068,7 @@ defmodule Countriex.Data do
         international_prefix: "011",
         ioc: "GUM",
         iso_long_name: "The Territory of Guam",
+        iso_short_name_lower_case: nil,
         languages_official: ["en",
          "ch",
          "es"],
@@ -4708,10 +5092,10 @@ defmodule Countriex.Data do
         unofficial_names: ["Guam",
          "グアム"],
         vat_rates: nil,
+        vehicle_registration_code: nil,
         world_region: "APAC"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "GW",
         alpha3: "GNB",
@@ -4721,7 +5105,11 @@ defmodule Countriex.Data do
         currency_code: "XOF",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "PU",
         geo: %Countriex.Geo{
           latitude: 11.803749,
@@ -4734,6 +5122,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "GBS",
         iso_long_name: "The Republic of Guinea-Bissau",
+        iso_short_name_lower_case: nil,
         languages_official: ["pt"],
         languages_spoken: ["pt"],
         name: "Guinea-Bissau",
@@ -4759,8 +5148,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "GUB",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "GY",
         alpha3: "GUY",
@@ -4770,7 +5158,11 @@ defmodule Countriex.Data do
         currency_code: "GYD",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "GY",
         geo: %Countriex.Geo{
           latitude: 4.860416,
@@ -4783,6 +5175,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "GUY",
         iso_long_name: "The Co-operative Republic of Guyana",
+        iso_short_name_lower_case: nil,
         languages_official: ["en"],
         languages_spoken: ["en"],
         name: "Guyana",
@@ -4794,6 +5187,7 @@ defmodule Countriex.Data do
         nationality: "Guyanese",
         number: "328",
         postal_code: false,
+        postal_code_format: nil,
         region: "Americas",
         start_of_week: "monday",
         subregion: "South America",
@@ -4805,8 +5199,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "GUY",
         world_region: "AMER"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: "{{recipient}}\n{{street}}\n{{postalcode}} {{city}} {{region_short}}\n{{country}}",
         alpha2: "HK",
         alpha3: "HKG",
@@ -4816,7 +5209,11 @@ defmodule Countriex.Data do
         currency_code: "HKD",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "HK",
         geo: %Countriex.Geo{
           latitude: 22.3193039,
@@ -4829,6 +5226,7 @@ defmodule Countriex.Data do
         international_prefix: "001",
         ioc: "HKG",
         iso_long_name: "The Hong Kong Special Administrative Region of China",
+        iso_short_name_lower_case: nil,
         languages_official: ["en",
          "zh"],
         languages_spoken: ["en",
@@ -4841,6 +5239,7 @@ defmodule Countriex.Data do
         nationality: "Hong Kongese",
         number: "344",
         postal_code: false,
+        postal_code_format: nil,
         region: "Asia",
         start_of_week: "monday",
         subregion: "Eastern Asia",
@@ -4853,8 +5252,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "HK",
         world_region: "APAC"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "HM",
         alpha3: "HMD",
@@ -4864,7 +5262,11 @@ defmodule Countriex.Data do
         currency_code: "AUD",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "HM",
         geo: %Countriex.Geo{
           latitude: -53.08181,
@@ -4877,6 +5279,7 @@ defmodule Countriex.Data do
         international_prefix: "",
         ioc: nil,
         iso_long_name: "The Territory of Heard Island and McDonald Islands",
+        iso_short_name_lower_case: nil,
         languages_official: ["en"],
         languages_spoken: ["en"],
         name: "Heard Island and McDonald Islands",
@@ -4899,10 +5302,10 @@ defmodule Countriex.Data do
          "Heard- en McDonaldeilanden",
          "Heard Island and McDonald Islands"],
         vat_rates: nil,
+        vehicle_registration_code: nil,
         world_region: "APAC"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "HN",
         alpha3: "HND",
@@ -4912,7 +5315,11 @@ defmodule Countriex.Data do
         currency_code: "HNL",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "HO",
         geo: %Countriex.Geo{
           latitude: 15.199999,
@@ -4925,6 +5332,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "HON",
         iso_long_name: "The Republic of Honduras",
+        iso_short_name_lower_case: nil,
         languages_official: ["es"],
         languages_spoken: ["es"],
         name: "Honduras",
@@ -4948,8 +5356,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "HN",
         world_region: "AMER"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: "{{recipient}}\n{{street}}\n{{postalcode}} {{city}}\n{{country}}",
         alpha2: "HR",
         alpha3: "HRV",
@@ -4959,7 +5366,11 @@ defmodule Countriex.Data do
         currency_code: "EUR",
         distance_unit: "KM",
         eea_member: true,
+        esm_member: nil,
         eu_member: true,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "HR",
         geo: %Countriex.Geo{
           latitude: 45.1,
@@ -4972,6 +5383,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "CRO",
         iso_long_name: "The Republic of Croatia",
+        iso_short_name_lower_case: nil,
         languages_official: ["hr"],
         languages_spoken: ["hr"],
         name: "Croatia",
@@ -5005,8 +5417,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "HR",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "HT",
         alpha3: "HTI",
@@ -5016,7 +5427,11 @@ defmodule Countriex.Data do
         currency_code: "HTG",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "HA",
         geo: %Countriex.Geo{
           latitude: 18.971187,
@@ -5029,6 +5444,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "HAI",
         iso_long_name: "The Republic of Haiti",
+        iso_short_name_lower_case: nil,
         languages_official: ["fr",
          "ht"],
         languages_spoken: ["fr",
@@ -5054,8 +5470,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "RH",
         world_region: "AMER"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: "{{recipient}}\n{{city}}\n{{street}}\n{{postalcode}}\n{{country}}",
         alpha2: "HU",
         alpha3: "HUN",
@@ -5065,7 +5480,11 @@ defmodule Countriex.Data do
         currency_code: "HUF",
         distance_unit: "KM",
         eea_member: true,
+        esm_member: nil,
         eu_member: true,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "HU",
         geo: %Countriex.Geo{
           latitude: 47.162494,
@@ -5078,6 +5497,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "HUN",
         iso_long_name: "Hungary",
+        iso_short_name_lower_case: nil,
         languages_official: ["hu"],
         languages_spoken: ["hu"],
         name: "Hungary",
@@ -5111,8 +5531,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "H",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: "{{recipient}}\n{{street}}\n{{city}}\n{{region}} {{postalcode}}\n{{country}}",
         alpha2: "ID",
         alpha3: "IDN",
@@ -5122,8 +5541,11 @@ defmodule Countriex.Data do
         currency_code: "IDR",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
         g20_member: true,
+        g7_member: nil,
         gec: "ID",
         geo: %Countriex.Geo{
           latitude: -0.789275,
@@ -5136,6 +5558,7 @@ defmodule Countriex.Data do
         international_prefix: "001",
         ioc: "INA",
         iso_long_name: "The Republic of Indonesia",
+        iso_short_name_lower_case: nil,
         languages_official: ["id"],
         languages_spoken: ["id"],
         name: "Indonesia",
@@ -5164,8 +5587,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "RI",
         world_region: "APAC"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: "{{recipient}}\n{{street}}\n{{city}} {{region_short}} {{postalcode}}\n{{country}}",
         alpha2: "IE",
         alpha3: "IRL",
@@ -5175,7 +5597,11 @@ defmodule Countriex.Data do
         currency_code: "EUR",
         distance_unit: "KM",
         eea_member: true,
+        esm_member: nil,
         eu_member: true,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "EI",
         geo: %Countriex.Geo{
           latitude: 53.1423672,
@@ -5188,6 +5614,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "IRL",
         iso_long_name: "Ireland",
+        iso_short_name_lower_case: nil,
         languages_official: ["en",
          "ga"],
         languages_spoken: ["en",
@@ -5222,8 +5649,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "IRL",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: "{{recipient}}\n{{street}}\n{{postalcode}} {{city}}\n{{country}}",
         alpha2: "IL",
         alpha3: "ISR",
@@ -5233,7 +5659,11 @@ defmodule Countriex.Data do
         currency_code: "ILS",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "IS",
         geo: %Countriex.Geo{
           latitude: 31.046051,
@@ -5246,6 +5676,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "ISR",
         iso_long_name: "The State of Israel",
+        iso_short_name_lower_case: nil,
         languages_official: ["he",
          "ar"],
         languages_spoken: ["he",
@@ -5278,8 +5709,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "IL",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "IM",
         alpha3: "IMN",
@@ -5289,7 +5719,11 @@ defmodule Countriex.Data do
         currency_code: "GBP",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "IM",
         geo: %Countriex.Geo{
           latitude: 54.236107,
@@ -5302,6 +5736,7 @@ defmodule Countriex.Data do
         international_prefix: "",
         ioc: nil,
         iso_long_name: "The Isle of Man",
+        iso_short_name_lower_case: nil,
         languages_official: ["en",
          "gv"],
         languages_spoken: ["en",
@@ -5329,8 +5764,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "GBM",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: "{{recipient}}\n{{street}}\n{{region}}\n{{city}} {{postalcode}}\n{{country}}",
         alpha2: "IN",
         alpha3: "IND",
@@ -5340,8 +5774,11 @@ defmodule Countriex.Data do
         currency_code: "INR",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
         g20_member: true,
+        g7_member: nil,
         gec: "IN",
         geo: %Countriex.Geo{
           latitude: 20.593684,
@@ -5354,6 +5791,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "IND",
         iso_long_name: "The Republic of India",
+        iso_short_name_lower_case: nil,
         languages_official: ["hi",
          "en"],
         languages_spoken: ["hi",
@@ -5380,8 +5818,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "IND",
         world_region: "APAC"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "IO",
         alpha3: "IOT",
@@ -5391,7 +5828,11 @@ defmodule Countriex.Data do
         currency_code: "USD",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "IO",
         geo: %Countriex.Geo{
           latitude: -6.343194,
@@ -5426,10 +5867,10 @@ defmodule Countriex.Data do
          "イギリス領インド洋地域",
          "Britse Gebieden in de Indische Oceaan"],
         vat_rates: nil,
+        vehicle_registration_code: nil,
         world_region: "APAC"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "IQ",
         alpha3: "IRQ",
@@ -5439,7 +5880,11 @@ defmodule Countriex.Data do
         currency_code: "IQD",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "IZ",
         geo: %Countriex.Geo{
           latitude: 33.223191,
@@ -5452,6 +5897,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "IRQ",
         iso_long_name: "The Republic of Iraq",
+        iso_short_name_lower_case: nil,
         languages_official: ["ar"],
         languages_spoken: ["ar"],
         name: "Iraq",
@@ -5478,8 +5924,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "IRQ",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "IR",
         alpha3: "IRN",
@@ -5489,7 +5934,11 @@ defmodule Countriex.Data do
         currency_code: "IRR",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "IR",
         geo: %Countriex.Geo{
           latitude: 32.427908,
@@ -5502,6 +5951,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "IRI",
         iso_long_name: "The Islamic Republic of Iran",
+        iso_short_name_lower_case: nil,
         languages_official: ["fa"],
         languages_spoken: ["fa"],
         name: "Iran (Islamic Republic of)",
@@ -5527,8 +5977,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "IR",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: "{{recipient}}\n{{street}}\n{{postalcode}} {{city}}\n{{country}}",
         alpha2: "IS",
         alpha3: "ISL",
@@ -5538,7 +5987,11 @@ defmodule Countriex.Data do
         currency_code: "ISK",
         distance_unit: "KM",
         eea_member: true,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "IC",
         geo: %Countriex.Geo{
           latitude: 64.963051,
@@ -5551,6 +6004,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "ISL",
         iso_long_name: "Iceland",
+        iso_short_name_lower_case: nil,
         languages_official: ["is"],
         languages_spoken: ["is"],
         name: "Iceland",
@@ -5584,8 +6038,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "IS",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: "{{recipient}}\n{{street}}\n{{postalcode}} {{city}} {{region_short}}\n{{country}}",
         alpha2: "IT",
         alpha3: "ITA",
@@ -5595,7 +6048,9 @@ defmodule Countriex.Data do
         currency_code: "EUR",
         distance_unit: "KM",
         eea_member: true,
+        esm_member: nil,
         eu_member: true,
+        euvat_member: nil,
         g20_member: true,
         g7_member: true,
         gec: "IT",
@@ -5610,6 +6065,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "ITA",
         iso_long_name: "The Italian Republic",
+        iso_short_name_lower_case: nil,
         languages_official: ["it"],
         languages_spoken: ["it"],
         name: "Italy",
@@ -5642,8 +6098,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "I",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "JE",
         alpha3: "JEY",
@@ -5653,7 +6108,11 @@ defmodule Countriex.Data do
         currency_code: "GBP",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "JE",
         geo: %Countriex.Geo{
           latitude: 49.214439,
@@ -5666,6 +6125,7 @@ defmodule Countriex.Data do
         international_prefix: "",
         ioc: nil,
         iso_long_name: "The Bailiwick of Jersey",
+        iso_short_name_lower_case: nil,
         languages_official: ["en",
          "fr"],
         languages_spoken: ["en",
@@ -5690,8 +6150,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "GBJ",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "JM",
         alpha3: "JAM",
@@ -5701,7 +6160,11 @@ defmodule Countriex.Data do
         currency_code: "JMD",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "JM",
         geo: %Countriex.Geo{
           latitude: 18.109581,
@@ -5714,6 +6177,7 @@ defmodule Countriex.Data do
         international_prefix: "011",
         ioc: "JAM",
         iso_long_name: "Jamaica",
+        iso_short_name_lower_case: nil,
         languages_official: ["en"],
         languages_spoken: ["en"],
         name: "Jamaica",
@@ -5724,6 +6188,7 @@ defmodule Countriex.Data do
         nationality: "Jamaican",
         number: "388",
         postal_code: false,
+        postal_code_format: nil,
         region: "Americas",
         start_of_week: "monday",
         subregion: "Caribbean",
@@ -5737,8 +6202,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "JA",
         world_region: "AMER"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: "{{recipient}}\n{{street}}\n{{postalcode}} {{city}}\n{{country}}",
         alpha2: "JO",
         alpha3: "JOR",
@@ -5748,7 +6212,11 @@ defmodule Countriex.Data do
         currency_code: "JOD",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "JO",
         geo: %Countriex.Geo{
           latitude: 30.585164,
@@ -5761,6 +6229,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "JOR",
         iso_long_name: "The Hashemite Kingdom of Jordan",
+        iso_short_name_lower_case: nil,
         languages_official: ["ar"],
         languages_spoken: ["ar"],
         name: "Jordan",
@@ -5789,8 +6258,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "JOR",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: "〒{{postalcode}}\n{{region_short}}{{city}}{{street}}\n{{recipient}}\n{{country}}",
         alpha2: "JP",
         alpha3: "JPN",
@@ -5800,7 +6268,9 @@ defmodule Countriex.Data do
         currency_code: "JPY",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
         g20_member: true,
         g7_member: true,
         gec: "JA",
@@ -5815,6 +6285,7 @@ defmodule Countriex.Data do
         international_prefix: "010",
         ioc: "JPN",
         iso_long_name: "Japan",
+        iso_short_name_lower_case: nil,
         languages_official: ["ja"],
         languages_spoken: ["ja"],
         name: "Japan",
@@ -5840,8 +6311,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "J",
         world_region: "APAC"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "KE",
         alpha3: "KEN",
@@ -5851,7 +6321,11 @@ defmodule Countriex.Data do
         currency_code: "KES",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "KE",
         geo: %Countriex.Geo{
           latitude: -0.023559,
@@ -5864,6 +6338,7 @@ defmodule Countriex.Data do
         international_prefix: "000",
         ioc: "KEN",
         iso_long_name: "The Republic of Kenya",
+        iso_short_name_lower_case: nil,
         languages_official: ["en",
          "sw"],
         languages_spoken: ["en",
@@ -5889,8 +6364,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "EAK",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "KG",
         alpha3: "KGZ",
@@ -5900,7 +6374,11 @@ defmodule Countriex.Data do
         currency_code: "KGS",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "KG",
         geo: %Countriex.Geo{
           latitude: 41.20438,
@@ -5913,6 +6391,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "KGZ",
         iso_long_name: "The Kyrgyz Republic",
+        iso_short_name_lower_case: nil,
         languages_official: ["ky",
          "ru"],
         languages_spoken: ["ky",
@@ -5942,8 +6421,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "KG",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "KH",
         alpha3: "KHM",
@@ -5953,7 +6431,11 @@ defmodule Countriex.Data do
         currency_code: "KHR",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "CB",
         geo: %Countriex.Geo{
           latitude: 12.565679,
@@ -5966,6 +6448,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "CAM",
         iso_long_name: "The Kingdom of Cambodia",
+        iso_short_name_lower_case: nil,
         languages_official: ["km"],
         languages_spoken: ["km"],
         name: "Cambodia",
@@ -5992,8 +6475,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "K",
         world_region: "APAC"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "KI",
         alpha3: "KIR",
@@ -6003,7 +6485,11 @@ defmodule Countriex.Data do
         currency_code: "AUD",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "KR",
         geo: %Countriex.Geo{
           latitude: -3.370417,
@@ -6016,6 +6502,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "KIR",
         iso_long_name: "The Republic of Kiribati",
+        iso_short_name_lower_case: nil,
         languages_official: ["en"],
         languages_spoken: ["en"],
         name: "Kiribati",
@@ -6026,6 +6513,7 @@ defmodule Countriex.Data do
         nationality: "I-Kiribati",
         number: "296",
         postal_code: false,
+        postal_code_format: nil,
         region: "Oceania",
         start_of_week: "monday",
         subregion: "Micronesia",
@@ -6037,8 +6525,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "KIR",
         world_region: "APAC"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "KM",
         alpha3: "COM",
@@ -6048,7 +6535,11 @@ defmodule Countriex.Data do
         currency_code: "KMF",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "CN",
         geo: %Countriex.Geo{
           latitude: -11.6455,
@@ -6074,6 +6565,7 @@ defmodule Countriex.Data do
         nationality: "Comoran",
         number: "174",
         postal_code: false,
+        postal_code_format: nil,
         region: "Africa",
         start_of_week: "monday",
         subregion: "Eastern Africa",
@@ -6088,8 +6580,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "COM",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "KN",
         alpha3: "KNA",
@@ -6099,7 +6590,11 @@ defmodule Countriex.Data do
         currency_code: "XCD",
         distance_unit: "MI",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "SC",
         geo: %Countriex.Geo{
           latitude: 17.357822,
@@ -6112,6 +6607,7 @@ defmodule Countriex.Data do
         international_prefix: "011",
         ioc: "SKN",
         iso_long_name: "Saint Kitts and Nevis",
+        iso_short_name_lower_case: nil,
         languages_official: ["en"],
         languages_spoken: ["en"],
         name: "Saint Kitts and Nevis",
@@ -6122,6 +6618,7 @@ defmodule Countriex.Data do
         nationality: "Kittian and Nevisian",
         number: "659",
         postal_code: false,
+        postal_code_format: nil,
         region: "Americas",
         start_of_week: "monday",
         subregion: "Caribbean",
@@ -6139,8 +6636,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "KAN",
         world_region: "AMER"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "KP",
         alpha3: "PRK",
@@ -6150,7 +6646,11 @@ defmodule Countriex.Data do
         currency_code: "KPW",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "KN",
         geo: %Countriex.Geo{
           latitude: 40.339852,
@@ -6175,6 +6675,7 @@ defmodule Countriex.Data do
         nationality: "North Korean",
         number: "408",
         postal_code: false,
+        postal_code_format: nil,
         region: "Asia",
         start_of_week: "monday",
         subregion: "Eastern Asia",
@@ -6194,8 +6695,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "KP",
         world_region: "APAC"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: "{{recipient}}\n{{street}}\n{{city}} {{region_short}}\n{{postalcode}}\n{{country}}",
         alpha2: "KR",
         alpha3: "KOR",
@@ -6205,8 +6705,11 @@ defmodule Countriex.Data do
         currency_code: "KRW",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
         g20_member: true,
+        g7_member: nil,
         gec: "KS",
         geo: %Countriex.Geo{
           latitude: 35.907757,
@@ -6249,8 +6752,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "ROK",
         world_region: "APAC"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: "{{recipient}}\n{{street}}\n{{postalcode}} {{city}}\n{{region}}\n{{country}}",
         alpha2: "KW",
         alpha3: "KWT",
@@ -6260,7 +6762,11 @@ defmodule Countriex.Data do
         currency_code: "KWD",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "KU",
         geo: %Countriex.Geo{
           latitude: 29.31166,
@@ -6273,6 +6779,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "KUW",
         iso_long_name: "The State of Kuwait",
+        iso_short_name_lower_case: nil,
         languages_official: ["ar"],
         languages_spoken: ["ar"],
         name: "Kuwait",
@@ -6298,8 +6805,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "KWT",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "KY",
         alpha3: "CYM",
@@ -6309,7 +6815,11 @@ defmodule Countriex.Data do
         currency_code: "KYD",
         distance_unit: "MI",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "CJ",
         geo: %Countriex.Geo{
           latitude: 19.3133,
@@ -6346,10 +6856,10 @@ defmodule Countriex.Data do
          "ケイマン諸島",
          "Caymaneilanden"],
         vat_rates: nil,
+        vehicle_registration_code: nil,
         world_region: "AMER"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "KZ",
         alpha3: "KAZ",
@@ -6359,7 +6869,11 @@ defmodule Countriex.Data do
         currency_code: "KZT",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "KZ",
         geo: %Countriex.Geo{
           latitude: 48.019573,
@@ -6372,6 +6886,7 @@ defmodule Countriex.Data do
         international_prefix: "810",
         ioc: "KAZ",
         iso_long_name: "The Republic of Kazakhstan",
+        iso_short_name_lower_case: nil,
         languages_official: ["kk",
          "ru"],
         languages_spoken: ["kk",
@@ -6399,8 +6914,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "KZ",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "LA",
         alpha3: "LAO",
@@ -6410,7 +6924,11 @@ defmodule Countriex.Data do
         currency_code: "LAK",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "LA",
         geo: %Countriex.Geo{
           latitude: 19.85627,
@@ -6447,8 +6965,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "LAO",
         world_region: "APAC"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: "{{recipient}}\n{{street}}\n{{postalcode}} {{city}}\n{{country}}",
         alpha2: "LB",
         alpha3: "LBN",
@@ -6458,7 +6975,11 @@ defmodule Countriex.Data do
         currency_code: "LBP",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "LE",
         geo: %Countriex.Geo{
           latitude: 33.854721,
@@ -6471,6 +6992,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "LBN",
         iso_long_name: "The Lebanese Republic",
+        iso_short_name_lower_case: nil,
         languages_official: ["ar",
          "fr"],
         languages_spoken: ["ar",
@@ -6499,8 +7021,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "RL",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "LC",
         alpha3: "LCA",
@@ -6510,7 +7031,11 @@ defmodule Countriex.Data do
         currency_code: "XCD",
         distance_unit: "MI",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "ST",
         geo: %Countriex.Geo{
           latitude: 13.909444,
@@ -6523,6 +7048,7 @@ defmodule Countriex.Data do
         international_prefix: "011",
         ioc: "LCA",
         iso_long_name: "Saint Lucia",
+        iso_short_name_lower_case: nil,
         languages_official: ["en"],
         languages_spoken: ["en"],
         name: "Saint Lucia",
@@ -6533,6 +7059,7 @@ defmodule Countriex.Data do
         nationality: "Saint Lucian",
         number: "662",
         postal_code: false,
+        postal_code_format: nil,
         region: "Americas",
         start_of_week: "monday",
         subregion: "Caribbean",
@@ -6548,8 +7075,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "WL",
         world_region: "AMER"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "LI",
         alpha3: "LIE",
@@ -6562,6 +7088,8 @@ defmodule Countriex.Data do
         esm_member: true,
         eu_member: nil,
         euvat_member: false,
+        g20_member: nil,
+        g7_member: nil,
         gec: "LS",
         geo: %Countriex.Geo{
           latitude: 47.166,
@@ -6574,6 +7102,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "LIE",
         iso_long_name: "The Principality of Liechtenstein",
+        iso_short_name_lower_case: nil,
         languages_official: ["de"],
         languages_spoken: ["de"],
         name: "Liechtenstein",
@@ -6596,8 +7125,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "FL",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "LK",
         alpha3: "LKA",
@@ -6607,7 +7135,11 @@ defmodule Countriex.Data do
         currency_code: "LKR",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "CE",
         geo: %Countriex.Geo{
           latitude: 7.873053999999999,
@@ -6620,6 +7152,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "SRI",
         iso_long_name: "The Democratic Socialist Republic of Sri Lanka",
+        iso_short_name_lower_case: nil,
         languages_official: ["si",
          "ta"],
         languages_spoken: ["si",
@@ -6644,8 +7177,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "CL",
         world_region: "APAC"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "LR",
         alpha3: "LBR",
@@ -6655,7 +7187,11 @@ defmodule Countriex.Data do
         currency_code: "LRD",
         distance_unit: "MI",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "LI",
         geo: %Countriex.Geo{
           latitude: 6.428055,
@@ -6668,6 +7204,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "LBR",
         iso_long_name: "The Republic of Liberia",
+        iso_short_name_lower_case: nil,
         languages_official: ["en"],
         languages_spoken: ["en"],
         name: "Liberia",
@@ -6692,8 +7229,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "LB",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "LS",
         alpha3: "LSO",
@@ -6703,7 +7239,11 @@ defmodule Countriex.Data do
         currency_code: "LSL",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "LT",
         geo: %Countriex.Geo{
           latitude: -29.609988,
@@ -6716,6 +7256,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "LES",
         iso_long_name: "The Kingdom of Lesotho",
+        iso_short_name_lower_case: nil,
         languages_official: ["en",
          "st"],
         languages_spoken: ["en",
@@ -6740,8 +7281,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "LS",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "LT",
         alpha3: "LTU",
@@ -6751,7 +7291,11 @@ defmodule Countriex.Data do
         currency_code: "EUR",
         distance_unit: "KM",
         eea_member: true,
+        esm_member: nil,
         eu_member: true,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "LH",
         geo: %Countriex.Geo{
           latitude: 55.169438,
@@ -6764,6 +7308,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "LTU",
         iso_long_name: "The Republic of Lithuania",
+        iso_short_name_lower_case: nil,
         languages_official: ["lt"],
         languages_spoken: ["lt"],
         name: "Lithuania",
@@ -6798,8 +7343,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "LT",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: "{{recipient}}\n{{street}}\n{{postalcode}} {{city}}\n{{country}}",
         alpha2: "LU",
         alpha3: "LUX",
@@ -6809,7 +7353,11 @@ defmodule Countriex.Data do
         currency_code: "EUR",
         distance_unit: "KM",
         eea_member: true,
+        esm_member: nil,
         eu_member: true,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "LU",
         geo: %Countriex.Geo{
           latitude: 49.815273,
@@ -6822,6 +7370,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "LUX",
         iso_long_name: "The Grand Duchy of Luxembourg",
+        iso_short_name_lower_case: nil,
         languages_official: ["fr",
          "de",
          "lb"],
@@ -6856,8 +7405,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "L",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: "{{recipient}}\n{{street}}\n{{region}}\n{{city}} {{postalcode}}\n{{country}}",
         alpha2: "LV",
         alpha3: "LVA",
@@ -6867,7 +7415,11 @@ defmodule Countriex.Data do
         currency_code: "EUR",
         distance_unit: "KM",
         eea_member: true,
+        esm_member: nil,
         eu_member: true,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "LG",
         geo: %Countriex.Geo{
           latitude: 56.879635,
@@ -6880,6 +7432,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "LAT",
         iso_long_name: "The Republic of Latvia",
+        iso_short_name_lower_case: nil,
         languages_official: ["lv"],
         languages_spoken: ["lv"],
         name: "Latvia",
@@ -6911,8 +7464,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "LV",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "LY",
         alpha3: "LBY",
@@ -6922,7 +7474,11 @@ defmodule Countriex.Data do
         currency_code: "LYD",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "LY",
         geo: %Countriex.Geo{
           latitude: 26.3351,
@@ -6935,6 +7491,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "LBA",
         iso_long_name: "The State of Libya",
+        iso_short_name_lower_case: nil,
         languages_official: ["ar"],
         languages_spoken: ["ar"],
         name: "Libya",
@@ -6946,6 +7503,7 @@ defmodule Countriex.Data do
         nationality: "Libyan",
         number: "434",
         postal_code: false,
+        postal_code_format: nil,
         region: "Africa",
         start_of_week: "sunday",
         subregion: "Northern Africa",
@@ -6963,8 +7521,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "LAR",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "MA",
         alpha3: "MAR",
@@ -6974,7 +7531,11 @@ defmodule Countriex.Data do
         currency_code: "MAD",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "MO",
         geo: %Countriex.Geo{
           latitude: 31.791702,
@@ -6987,6 +7548,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "MAR",
         iso_long_name: "The Kingdom of Morocco",
+        iso_short_name_lower_case: nil,
         languages_official: ["ar"],
         languages_spoken: ["ar"],
         name: "Morocco",
@@ -7013,8 +7575,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "MA",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "MC",
         alpha3: "MCO",
@@ -7024,8 +7585,11 @@ defmodule Countriex.Data do
         currency_code: "EUR",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: false,
         euvat_member: true,
+        g20_member: nil,
+        g7_member: nil,
         gec: "MN",
         geo: %Countriex.Geo{
           latitude: 43.73841760000001,
@@ -7038,6 +7602,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "MON",
         iso_long_name: "The Principality of Monaco",
+        iso_short_name_lower_case: nil,
         languages_official: ["fr"],
         languages_spoken: ["fr"],
         name: "Monaco",
@@ -7062,8 +7627,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "MC",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "MD",
         alpha3: "MDA",
@@ -7073,7 +7637,11 @@ defmodule Countriex.Data do
         currency_code: "MDL",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "MD",
         geo: %Countriex.Geo{
           latitude: 47.411631,
@@ -7115,8 +7683,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "MD",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "ME",
         alpha3: "MNE",
@@ -7126,7 +7693,11 @@ defmodule Countriex.Data do
         currency_code: "EUR",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "MJ",
         geo: %Countriex.Geo{
           latitude: 42.708678,
@@ -7139,6 +7710,7 @@ defmodule Countriex.Data do
         international_prefix: "99",
         ioc: "MNE",
         iso_long_name: "Montenegro",
+        iso_short_name_lower_case: nil,
         languages_official: ["sr",
          "bs",
          "sq",
@@ -7168,8 +7740,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "MNE",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "MF",
         alpha3: "MAF",
@@ -7179,8 +7750,11 @@ defmodule Countriex.Data do
         currency_code: "EUR",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: true,
         euvat_member: false,
+        g20_member: nil,
+        g7_member: nil,
         gec: "RN",
         geo: %Countriex.Geo{
           latitude: 18.08255,
@@ -7193,6 +7767,7 @@ defmodule Countriex.Data do
         international_prefix: "",
         ioc: nil,
         iso_long_name: "The Collectivity of Saint-Martin",
+        iso_short_name_lower_case: nil,
         languages_official: ["en",
          "fr",
          "nl"],
@@ -7217,10 +7792,10 @@ defmodule Countriex.Data do
          "サン・マルタン（フランス領）",
          "Saint-Martin"],
         vat_rates: nil,
+        vehicle_registration_code: nil,
         world_region: "AMER"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "MG",
         alpha3: "MDG",
@@ -7230,7 +7805,11 @@ defmodule Countriex.Data do
         currency_code: "MGA",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "MA",
         geo: %Countriex.Geo{
           latitude: -18.766947,
@@ -7243,6 +7822,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "MAD",
         iso_long_name: "The Republic of Madagascar",
+        iso_short_name_lower_case: nil,
         languages_official: ["fr",
          "mg"],
         languages_spoken: ["fr",
@@ -7269,8 +7849,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "RM",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "MH",
         alpha3: "MHL",
@@ -7280,7 +7859,11 @@ defmodule Countriex.Data do
         currency_code: "USD",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "RM",
         geo: %Countriex.Geo{
           latitude: 7.131474,
@@ -7322,8 +7905,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "MH",
         world_region: "APAC"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: "{{recipient}}\n{{street}}\n{{city}} {{postalcode}}\n{{country}}",
         alpha2: "MK",
         alpha3: "MKD",
@@ -7333,7 +7915,11 @@ defmodule Countriex.Data do
         currency_code: "MKD",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "MK",
         geo: %Countriex.Geo{
           latitude: 41.608635,
@@ -7346,6 +7932,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "MKD",
         iso_long_name: "The Republic of North Macedonia",
+        iso_short_name_lower_case: nil,
         languages_official: ["mk"],
         languages_spoken: ["mk"],
         name: "North Macedonia",
@@ -7376,8 +7963,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "NMK",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "ML",
         alpha3: "MLI",
@@ -7387,7 +7973,11 @@ defmodule Countriex.Data do
         currency_code: "XOF",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "ML",
         geo: %Countriex.Geo{
           latitude: 17.570692,
@@ -7400,6 +7990,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "MLI",
         iso_long_name: "The Republic of Mali",
+        iso_short_name_lower_case: nil,
         languages_official: ["fr"],
         languages_spoken: ["fr"],
         name: "Mali",
@@ -7410,6 +8001,7 @@ defmodule Countriex.Data do
         nationality: "Malian",
         number: "466",
         postal_code: false,
+        postal_code_format: nil,
         region: "Africa",
         start_of_week: "monday",
         subregion: "Western Africa",
@@ -7421,8 +8013,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "RMM",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "MM",
         alpha3: "MMR",
@@ -7432,7 +8023,11 @@ defmodule Countriex.Data do
         currency_code: "MMK",
         distance_unit: "MI",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "BM",
         geo: %Countriex.Geo{
           latitude: 21.916221,
@@ -7445,6 +8040,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "MYA",
         iso_long_name: "The Republic of the Union of Myanmar",
+        iso_short_name_lower_case: nil,
         languages_official: ["my"],
         languages_spoken: ["my"],
         name: "Myanmar",
@@ -7469,8 +8065,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "MYA",
         world_region: "APAC"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "MN",
         alpha3: "MNG",
@@ -7480,7 +8075,11 @@ defmodule Countriex.Data do
         currency_code: "MNT",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "MG",
         geo: %Countriex.Geo{
           latitude: 46.862496,
@@ -7493,6 +8092,7 @@ defmodule Countriex.Data do
         international_prefix: "001",
         ioc: "MGL",
         iso_long_name: "Mongolia",
+        iso_short_name_lower_case: nil,
         languages_official: ["mn"],
         languages_spoken: ["mn"],
         name: "Mongolia",
@@ -7521,8 +8121,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "MNG",
         world_region: "APAC"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "MO",
         alpha3: "MAC",
@@ -7532,7 +8131,11 @@ defmodule Countriex.Data do
         currency_code: "MOP",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "MC",
         geo: %Countriex.Geo{
           latitude: 22.198745,
@@ -7545,6 +8148,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: nil,
         iso_long_name: "The Macao Special Administrative Region of China",
+        iso_short_name_lower_case: nil,
         languages_official: ["zh",
          "pt"],
         languages_spoken: ["zh",
@@ -7557,6 +8161,7 @@ defmodule Countriex.Data do
         nationality: "Chinese",
         number: "446",
         postal_code: false,
+        postal_code_format: nil,
         region: "Asia",
         start_of_week: "monday",
         subregion: "Eastern Asia",
@@ -7566,10 +8171,10 @@ defmodule Countriex.Data do
          "Macau",
          "マカオ"],
         vat_rates: nil,
+        vehicle_registration_code: nil,
         world_region: "APAC"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "MP",
         alpha3: "MNP",
@@ -7579,7 +8184,11 @@ defmodule Countriex.Data do
         currency_code: "USD",
         distance_unit: "MI",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "CQ",
         geo: %Countriex.Geo{
           latitude: 15.0979,
@@ -7618,10 +8227,10 @@ defmodule Countriex.Data do
          "北マリアナ諸島",
          "Noordelijke Marianeneilanden"],
         vat_rates: nil,
+        vehicle_registration_code: nil,
         world_region: "APAC"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "MQ",
         alpha3: "MTQ",
@@ -7631,8 +8240,11 @@ defmodule Countriex.Data do
         currency_code: "EUR",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: true,
         euvat_member: false,
+        g20_member: nil,
+        g7_member: nil,
         gec: "MB",
         geo: %Countriex.Geo{
           latitude: 14.641528,
@@ -7645,6 +8257,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: nil,
         iso_long_name: "Martinique",
+        iso_short_name_lower_case: nil,
         languages_official: ["fr"],
         languages_spoken: ["fr"],
         name: "Martinique",
@@ -7665,10 +8278,10 @@ defmodule Countriex.Data do
          "Martinica",
          "マルティニーク"],
         vat_rates: nil,
+        vehicle_registration_code: nil,
         world_region: "AMER"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "MR",
         alpha3: "MRT",
@@ -7678,7 +8291,11 @@ defmodule Countriex.Data do
         currency_code: "MRU",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "MR",
         geo: %Countriex.Geo{
           latitude: 21.00789,
@@ -7691,6 +8308,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "MTN",
         iso_long_name: "The Islamic Republic of Mauritania",
+        iso_short_name_lower_case: nil,
         languages_official: ["ar",
          "fr"],
         languages_spoken: ["ar",
@@ -7703,6 +8321,7 @@ defmodule Countriex.Data do
         nationality: "Mauritanian",
         number: "478",
         postal_code: false,
+        postal_code_format: nil,
         region: "Africa",
         start_of_week: "monday",
         subregion: "Western Africa",
@@ -7718,8 +8337,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "RIM",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "MS",
         alpha3: "MSR",
@@ -7729,7 +8347,11 @@ defmodule Countriex.Data do
         currency_code: "XCD",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "MH",
         geo: %Countriex.Geo{
           latitude: 16.742498,
@@ -7742,6 +8364,7 @@ defmodule Countriex.Data do
         international_prefix: "011",
         ioc: nil,
         iso_long_name: "Montserrat",
+        iso_short_name_lower_case: nil,
         languages_official: ["en"],
         languages_spoken: ["en"],
         name: "Montserrat",
@@ -7752,6 +8375,7 @@ defmodule Countriex.Data do
         nationality: "Montserratian",
         number: "500",
         postal_code: false,
+        postal_code_format: nil,
         region: "Americas",
         start_of_week: "monday",
         subregion: "Caribbean",
@@ -7760,10 +8384,10 @@ defmodule Countriex.Data do
         unofficial_names: ["Montserrat",
          "モントセラト"],
         vat_rates: nil,
+        vehicle_registration_code: nil,
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "MT",
         alpha3: "MLT",
@@ -7773,7 +8397,11 @@ defmodule Countriex.Data do
         currency_code: "EUR",
         distance_unit: "KM",
         eea_member: true,
+        esm_member: nil,
         eu_member: true,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "MT",
         geo: %Countriex.Geo{
           latitude: 35.937496,
@@ -7786,6 +8414,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "MLT",
         iso_long_name: "The Republic of Malta",
+        iso_short_name_lower_case: nil,
         languages_official: ["mt",
          "en"],
         languages_spoken: ["mt",
@@ -7817,8 +8446,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "M",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "MU",
         alpha3: "MUS",
@@ -7828,7 +8456,11 @@ defmodule Countriex.Data do
         currency_code: "MUR",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "MP",
         geo: %Countriex.Geo{
           latitude: -20.348404,
@@ -7841,6 +8473,7 @@ defmodule Countriex.Data do
         international_prefix: "020",
         ioc: "MRI",
         iso_long_name: "The Republic of Mauritius",
+        iso_short_name_lower_case: nil,
         languages_official: ["en"],
         languages_spoken: ["en"],
         name: "Mauritius",
@@ -7865,8 +8498,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "MS",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "MV",
         alpha3: "MDV",
@@ -7876,7 +8508,11 @@ defmodule Countriex.Data do
         currency_code: "MVR",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "MV",
         geo: %Countriex.Geo{
           latitude: 3.202778,
@@ -7889,6 +8525,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "MDV",
         iso_long_name: "The Republic of Maldives",
+        iso_short_name_lower_case: nil,
         languages_official: ["dv"],
         languages_spoken: ["dv"],
         name: "Maldives",
@@ -7914,8 +8551,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "MV",
         world_region: "APAC"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "MW",
         alpha3: "MWI",
@@ -7925,7 +8561,11 @@ defmodule Countriex.Data do
         currency_code: "MWK",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "MI",
         geo: %Countriex.Geo{
           latitude: -13.254308,
@@ -7938,6 +8578,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "MAW",
         iso_long_name: "The Republic of Malawi",
+        iso_short_name_lower_case: nil,
         languages_official: ["en",
          "ny"],
         languages_spoken: ["en",
@@ -7950,6 +8591,7 @@ defmodule Countriex.Data do
         nationality: "Malawian",
         number: "454",
         postal_code: false,
+        postal_code_format: nil,
         region: "Africa",
         start_of_week: "monday",
         subregion: "Eastern Africa",
@@ -7961,8 +8603,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "MW",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: "{{recipient}}\n{{street}}\n{{postalcode}} {{city}} {{region_short}}\n{{country}}",
         alpha2: "MX",
         alpha3: "MEX",
@@ -7972,8 +8613,11 @@ defmodule Countriex.Data do
         currency_code: "MXN",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
         g20_member: true,
+        g7_member: nil,
         gec: "MX",
         geo: %Countriex.Geo{
           latitude: 23.634501,
@@ -7986,6 +8630,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "MEX",
         iso_long_name: "The United Mexican States",
+        iso_short_name_lower_case: nil,
         languages_official: ["es"],
         languages_spoken: ["es"],
         name: "Mexico",
@@ -8018,8 +8663,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "MEX",
         world_region: "AMER"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "MY",
         alpha3: "MYS",
@@ -8029,7 +8673,11 @@ defmodule Countriex.Data do
         currency_code: "MYR",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "MY",
         geo: %Countriex.Geo{
           latitude: 4.210484,
@@ -8042,6 +8690,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "MAS",
         iso_long_name: "Malaysia",
+        iso_short_name_lower_case: nil,
         languages_official: ["ms",
          "en"],
         languages_spoken: ["ms",
@@ -8070,8 +8719,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "MAL",
         world_region: "APAC"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "MZ",
         alpha3: "MOZ",
@@ -8081,7 +8729,11 @@ defmodule Countriex.Data do
         currency_code: "MZN",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "MZ",
         geo: %Countriex.Geo{
           latitude: -18.665695,
@@ -8094,6 +8746,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "MOZ",
         iso_long_name: "The Republic of Mozambique",
+        iso_short_name_lower_case: nil,
         languages_official: ["pt"],
         languages_spoken: ["pt"],
         name: "Mozambique",
@@ -8118,8 +8771,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "MOC",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "NA",
         alpha3: "NAM",
@@ -8129,7 +8781,11 @@ defmodule Countriex.Data do
         currency_code: "NAD",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "WA",
         geo: %Countriex.Geo{
           latitude: -22.95764,
@@ -8142,6 +8798,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "NAM",
         iso_long_name: "The Republic of Namibia",
+        iso_short_name_lower_case: nil,
         languages_official: ["en",
          "af"],
         languages_spoken: ["en",
@@ -8169,8 +8826,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "NAM",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "NC",
         alpha3: "NCL",
@@ -8180,7 +8836,11 @@ defmodule Countriex.Data do
         currency_code: "XPF",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "NC",
         geo: %Countriex.Geo{
           latitude: -20.904305,
@@ -8193,6 +8853,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: nil,
         iso_long_name: "New Caledonia",
+        iso_short_name_lower_case: nil,
         languages_official: ["fr"],
         languages_spoken: ["fr"],
         name: "New Caledonia",
@@ -8219,8 +8880,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "NCL",
         world_region: "APAC"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "NE",
         alpha3: "NER",
@@ -8230,7 +8890,11 @@ defmodule Countriex.Data do
         currency_code: "XOF",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "NG",
         geo: %Countriex.Geo{
           latitude: 17.607789,
@@ -8267,8 +8931,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "RN",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "NF",
         alpha3: "NFK",
@@ -8278,7 +8941,11 @@ defmodule Countriex.Data do
         currency_code: "AUD",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "NF",
         geo: %Countriex.Geo{
           latitude: -29.040835,
@@ -8291,6 +8958,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: nil,
         iso_long_name: "The Territory of Norfolk Island",
+        iso_short_name_lower_case: nil,
         languages_official: ["en"],
         languages_spoken: ["en"],
         name: "Norfolk Island",
@@ -8314,10 +8982,10 @@ defmodule Countriex.Data do
          "ノーフォーク島",
          "Norfolkeiland"],
         vat_rates: nil,
+        vehicle_registration_code: nil,
         world_region: "APAC"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "NG",
         alpha3: "NGA",
@@ -8327,7 +8995,11 @@ defmodule Countriex.Data do
         currency_code: "NGN",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "NI",
         geo: %Countriex.Geo{
           latitude: 9.081999,
@@ -8340,6 +9012,7 @@ defmodule Countriex.Data do
         international_prefix: "009",
         ioc: "NGR",
         iso_long_name: "The Federal Republic of Nigeria",
+        iso_short_name_lower_case: nil,
         languages_official: ["en"],
         languages_spoken: ["en"],
         name: "Nigeria",
@@ -8370,8 +9043,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "NGR",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "NI",
         alpha3: "NIC",
@@ -8381,7 +9053,11 @@ defmodule Countriex.Data do
         currency_code: "NIO",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "NU",
         geo: %Countriex.Geo{
           latitude: 12.865416,
@@ -8394,6 +9070,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "NCA",
         iso_long_name: "The Republic of Nicaragua",
+        iso_short_name_lower_case: nil,
         languages_official: ["es"],
         languages_spoken: ["es"],
         name: "Nicaragua",
@@ -8416,8 +9093,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "NIC",
         world_region: "AMER"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: "{{recipient}}\n{{street}}\n{{postalcode}} {{city}}\n{{country}}",
         alpha2: "NL",
         alpha3: "NLD",
@@ -8427,7 +9103,11 @@ defmodule Countriex.Data do
         currency_code: "EUR",
         distance_unit: "KM",
         eea_member: true,
+        esm_member: nil,
         eu_member: true,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "NL",
         geo: %Countriex.Geo{
           latitude: 52.132633,
@@ -8475,8 +9155,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "NL",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: "{{recipient}}\n{{street}}\n{{postalcode}} {{city}}\n{{country}}",
         alpha2: "NO",
         alpha3: "NOR",
@@ -8486,7 +9165,11 @@ defmodule Countriex.Data do
         currency_code: "NOK",
         distance_unit: "KM",
         eea_member: true,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "NO",
         geo: %Countriex.Geo{
           latitude: 60.47202399999999,
@@ -8499,6 +9182,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "NOR",
         iso_long_name: "The Kingdom of Norway",
+        iso_short_name_lower_case: nil,
         languages_official: ["nb",
          "nn"],
         languages_spoken: ["nb",
@@ -8532,8 +9216,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "N",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: "{{recipient}}\n{{street}}\n{{city}}\n{{region}} {{postalcode}}\n{{country}}",
         alpha2: "NP",
         alpha3: "NPL",
@@ -8543,7 +9226,11 @@ defmodule Countriex.Data do
         currency_code: "NPR",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "NP",
         geo: %Countriex.Geo{
           latitude: 28.394857,
@@ -8556,6 +9243,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "NEP",
         iso_long_name: "The Federal Democratic Republic of Nepal",
+        iso_short_name_lower_case: nil,
         languages_official: ["ne"],
         languages_spoken: ["ne",
          "mai",
@@ -8585,8 +9273,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "NEP*",
         world_region: "APAC"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "NR",
         alpha3: "NRU",
@@ -8596,7 +9283,11 @@ defmodule Countriex.Data do
         currency_code: "AUD",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "NR",
         geo: %Countriex.Geo{
           latitude: -0.522778,
@@ -8609,6 +9300,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "NRU",
         iso_long_name: "The Republic of Nauru",
+        iso_short_name_lower_case: nil,
         languages_official: ["en",
          "na"],
         languages_spoken: ["en",
@@ -8621,6 +9313,7 @@ defmodule Countriex.Data do
         nationality: "Nauruan",
         number: "520",
         postal_code: false,
+        postal_code_format: nil,
         region: "Oceania",
         start_of_week: "monday",
         subregion: "Micronesia",
@@ -8632,8 +9325,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "NAU",
         world_region: "APAC"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "NU",
         alpha3: "NIU",
@@ -8643,7 +9335,11 @@ defmodule Countriex.Data do
         currency_code: "NZD",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "NE",
         geo: %Countriex.Geo{
           latitude: -19.054445,
@@ -8656,6 +9352,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: nil,
         iso_long_name: "Niue",
+        iso_short_name_lower_case: nil,
         languages_official: ["en"],
         languages_spoken: ["en"],
         name: "Niue",
@@ -8666,6 +9363,7 @@ defmodule Countriex.Data do
         nationality: "Niuean",
         number: "570",
         postal_code: false,
+        postal_code_format: nil,
         region: "Oceania",
         start_of_week: "monday",
         subregion: "Polynesia",
@@ -8674,10 +9372,10 @@ defmodule Countriex.Data do
         unofficial_names: ["Niue",
          "ニウエ"],
         vat_rates: nil,
+        vehicle_registration_code: nil,
         world_region: "APAC"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: "{{recipient}}\n{{street}}\n{{region}}\n{{city}} {{postalcode}}\n{{country}}",
         alpha2: "NZ",
         alpha3: "NZL",
@@ -8687,7 +9385,11 @@ defmodule Countriex.Data do
         currency_code: "NZD",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "NZ",
         geo: %Countriex.Geo{
           latitude: -40.900557,
@@ -8700,6 +9402,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "NZL",
         iso_long_name: "New Zealand",
+        iso_short_name_lower_case: nil,
         languages_official: ["en"],
         languages_spoken: ["en"],
         name: "New Zealand",
@@ -8732,8 +9435,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "NZ",
         world_region: "APAC"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: "{{recipient}}\n{{street}}\n{{postalcode}} {{city}}\n{{region}}\n{{country}}",
         alpha2: "OM",
         alpha3: "OMN",
@@ -8743,7 +9445,11 @@ defmodule Countriex.Data do
         currency_code: "OMR",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "MU",
         geo: %Countriex.Geo{
           latitude: 21.4735329,
@@ -8756,6 +9462,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "OMA",
         iso_long_name: "The Sultanate of Oman",
+        iso_short_name_lower_case: nil,
         languages_official: ["ar"],
         languages_spoken: ["ar"],
         name: "Oman",
@@ -8780,8 +9487,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "OM",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "PA",
         alpha3: "PAN",
@@ -8791,7 +9497,11 @@ defmodule Countriex.Data do
         currency_code: "PAB",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "PM",
         geo: %Countriex.Geo{
           latitude: 8.537981,
@@ -8804,6 +9514,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "PAN",
         iso_long_name: "The Republic of Panamá",
+        iso_short_name_lower_case: nil,
         languages_official: ["es"],
         languages_spoken: ["es"],
         name: "Panama",
@@ -8814,6 +9525,7 @@ defmodule Countriex.Data do
         nationality: "Panamanian",
         number: "591",
         postal_code: false,
+        postal_code_format: nil,
         region: "Americas",
         start_of_week: "monday",
         subregion: "Central America",
@@ -8826,8 +9538,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "PA",
         world_region: "AMER"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "PE",
         alpha3: "PER",
@@ -8837,7 +9548,11 @@ defmodule Countriex.Data do
         currency_code: "PEN",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "PE",
         geo: %Countriex.Geo{
           latitude: -9.189967,
@@ -8850,6 +9565,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "PER",
         iso_long_name: "The Republic of Perú",
+        iso_short_name_lower_case: nil,
         languages_official: ["es"],
         languages_spoken: ["es"],
         name: "Peru",
@@ -8875,8 +9591,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "PE",
         world_region: "AMER"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "PF",
         alpha3: "PYF",
@@ -8886,7 +9601,11 @@ defmodule Countriex.Data do
         currency_code: "XPF",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "FP",
         geo: %Countriex.Geo{
           latitude: -17.679742,
@@ -8899,6 +9618,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: nil,
         iso_long_name: "French Polynesia",
+        iso_short_name_lower_case: nil,
         languages_official: ["fr"],
         languages_spoken: ["fr"],
         name: "French Polynesia",
@@ -8922,10 +9642,10 @@ defmodule Countriex.Data do
          "フランス領ポリネシア",
          "Frans-Polynesië"],
         vat_rates: nil,
+        vehicle_registration_code: nil,
         world_region: "APAC"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "PG",
         alpha3: "PNG",
@@ -8935,7 +9655,11 @@ defmodule Countriex.Data do
         currency_code: "PGK",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "PP",
         geo: %Countriex.Geo{
           latitude: -6.314992999999999,
@@ -8948,6 +9672,7 @@ defmodule Countriex.Data do
         international_prefix: "05",
         ioc: "PNG",
         iso_long_name: "The Independent State of Papua New Guinea",
+        iso_short_name_lower_case: nil,
         languages_official: ["en"],
         languages_spoken: ["en"],
         name: "Papua New Guinea",
@@ -8974,8 +9699,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "PNG",
         world_region: "APAC"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: "{{recipient}}\n{{street}} {{region_short}}\n{{postalcode}} {{city}}\n{{country}}",
         alpha2: "PH",
         alpha3: "PHL",
@@ -8985,7 +9709,11 @@ defmodule Countriex.Data do
         currency_code: "PHP",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "RP",
         geo: %Countriex.Geo{
           latitude: 12.879721,
@@ -9033,8 +9761,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "RP",
         world_region: "APAC"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "PK",
         alpha3: "PAK",
@@ -9044,7 +9771,11 @@ defmodule Countriex.Data do
         currency_code: "PKR",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "PK",
         geo: %Countriex.Geo{
           latitude: 30.375321,
@@ -9057,6 +9788,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "PAK",
         iso_long_name: "The Islamic Republic of Pakistan",
+        iso_short_name_lower_case: nil,
         languages_official: ["en",
          "ur"],
         languages_spoken: ["en",
@@ -9083,8 +9815,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "PK",
         world_region: "APAC"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: "{{recipient}}\n{{street}}\n{{postalcode}} {{city}}\n{{region}}\n{{country}}",
         alpha2: "PL",
         alpha3: "POL",
@@ -9094,7 +9825,11 @@ defmodule Countriex.Data do
         currency_code: "PLN",
         distance_unit: "KM",
         eea_member: true,
+        esm_member: nil,
         eu_member: true,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "PL",
         geo: %Countriex.Geo{
           latitude: 51.919438,
@@ -9107,6 +9842,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "POL",
         iso_long_name: "The Republic of Poland",
+        iso_short_name_lower_case: nil,
         languages_official: ["pl"],
         languages_spoken: ["pl"],
         name: "Poland",
@@ -9138,8 +9874,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "PL",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "PM",
         alpha3: "SPM",
@@ -9149,7 +9884,11 @@ defmodule Countriex.Data do
         currency_code: "EUR",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "SB",
         geo: %Countriex.Geo{
           latitude: 46.8852,
@@ -9162,6 +9901,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: nil,
         iso_long_name: "The Overseas Collectivity of Saint-Pierre and Miquelon",
+        iso_short_name_lower_case: nil,
         languages_official: ["fr"],
         languages_spoken: ["fr"],
         name: "Saint Pierre and Miquelon",
@@ -9185,10 +9925,10 @@ defmodule Countriex.Data do
          "サンピエール島・ミクロン島",
          "Saint Pierre en Miquelon"],
         vat_rates: nil,
+        vehicle_registration_code: nil,
         world_region: "AMER"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "PN",
         alpha3: "PCN",
@@ -9198,7 +9938,11 @@ defmodule Countriex.Data do
         currency_code: "NZD",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "PC",
         geo: %Countriex.Geo{
           latitude: -24.3767537,
@@ -9211,6 +9955,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: nil,
         iso_long_name: "The Pitcairn, Henderson, Ducie and Oeno Islands",
+        iso_short_name_lower_case: nil,
         languages_official: ["en"],
         languages_spoken: ["en"],
         name: "Pitcairn",
@@ -9232,10 +9977,10 @@ defmodule Countriex.Data do
          "Pitcairneilanden",
          "Pitcairn Islands"],
         vat_rates: nil,
+        vehicle_registration_code: nil,
         world_region: "APAC"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "PR",
         alpha3: "PRI",
@@ -9245,7 +9990,11 @@ defmodule Countriex.Data do
         currency_code: "USD",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "RQ",
         geo: %Countriex.Geo{
           latitude: 18.220833,
@@ -9258,6 +10007,7 @@ defmodule Countriex.Data do
         international_prefix: "011",
         ioc: "PUR",
         iso_long_name: "The Commonwealth of Puerto Rico",
+        iso_short_name_lower_case: nil,
         languages_official: ["es",
          "en"],
         languages_spoken: ["es",
@@ -9282,8 +10032,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "PRI",
         world_region: "AMER"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "PS",
         alpha3: "PSE",
@@ -9293,7 +10042,11 @@ defmodule Countriex.Data do
         currency_code: "ILS",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "WE",
         geo: %Countriex.Geo{
           latitude: 31.952162,
@@ -9306,6 +10059,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "PLE",
         iso_long_name: "The State of Palestine",
+        iso_short_name_lower_case: nil,
         languages_official: ["ar",
          "he",
          "en"],
@@ -9322,6 +10076,7 @@ defmodule Countriex.Data do
         nationality: "Palestinian",
         number: "275",
         postal_code: false,
+        postal_code_format: nil,
         region: "Asia",
         start_of_week: "sunday",
         subregion: "Western Asia",
@@ -9340,8 +10095,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "WB",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: "{{recipient}}\n{{street}}\n{{postalcode}} {{city}} {{region_short}}\n{{country}}",
         alpha2: "PT",
         alpha3: "PRT",
@@ -9351,7 +10105,11 @@ defmodule Countriex.Data do
         currency_code: "EUR",
         distance_unit: "KM",
         eea_member: true,
+        esm_member: nil,
         eu_member: true,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "PO",
         geo: %Countriex.Geo{
           latitude: 39.39987199999999,
@@ -9364,6 +10122,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "POR",
         iso_long_name: "The Portuguese Republic",
+        iso_short_name_lower_case: nil,
         languages_official: ["pt"],
         languages_spoken: ["pt"],
         name: "Portugal",
@@ -9392,8 +10151,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "P",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "PW",
         alpha3: "PLW",
@@ -9403,7 +10161,11 @@ defmodule Countriex.Data do
         currency_code: "USD",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "PS",
         geo: %Countriex.Geo{
           latitude: 7.514979999999999,
@@ -9416,6 +10178,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "PLW",
         iso_long_name: "The Republic of Palau",
+        iso_short_name_lower_case: nil,
         languages_official: ["en"],
         languages_spoken: ["en"],
         name: "Palau",
@@ -9438,8 +10201,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "PAL",
         world_region: "APAC"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "PY",
         alpha3: "PRY",
@@ -9449,7 +10211,11 @@ defmodule Countriex.Data do
         currency_code: "PYG",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "PA",
         geo: %Countriex.Geo{
           latitude: -23.442503,
@@ -9462,6 +10228,7 @@ defmodule Countriex.Data do
         international_prefix: "002",
         ioc: "PAR",
         iso_long_name: "The Republic of Paraguay",
+        iso_short_name_lower_case: nil,
         languages_official: ["es",
          "gn"],
         languages_spoken: ["es",
@@ -9486,8 +10253,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "PY",
         world_region: "AMER"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: "{{recipient}}\n{{street}}\n{{postalcode}} {{city}}\n{{country}}",
         alpha2: "QA",
         alpha3: "QAT",
@@ -9497,7 +10263,11 @@ defmodule Countriex.Data do
         currency_code: "QAR",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "QA",
         geo: %Countriex.Geo{
           latitude: 25.354826,
@@ -9510,6 +10280,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "QAT",
         iso_long_name: "The State of Qatar",
+        iso_short_name_lower_case: nil,
         languages_official: ["ar"],
         languages_spoken: ["ar"],
         name: "Qatar",
@@ -9520,6 +10291,7 @@ defmodule Countriex.Data do
         nationality: "Qatari",
         number: "634",
         postal_code: false,
+        postal_code_format: nil,
         region: "Asia",
         start_of_week: "sunday",
         subregion: "Western Asia",
@@ -9533,8 +10305,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "Q",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "RE",
         alpha3: "REU",
@@ -9544,8 +10315,11 @@ defmodule Countriex.Data do
         currency_code: "EUR",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: true,
         euvat_member: false,
+        g20_member: nil,
+        g7_member: nil,
         gec: "RE",
         geo: %Countriex.Geo{
           latitude: -21.115141,
@@ -9558,6 +10332,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: nil,
         iso_long_name: "Réunion",
+        iso_short_name_lower_case: nil,
         languages_official: ["fr"],
         languages_spoken: ["fr"],
         name: "Réunion",
@@ -9579,10 +10354,10 @@ defmodule Countriex.Data do
          "Reunion",
          "レユニオン"],
         vat_rates: nil,
+        vehicle_registration_code: nil,
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: "{{recipient}}\n{{street}}\n{{postalcode}} {{city}}\n{{country}}",
         alpha2: "RO",
         alpha3: "ROU",
@@ -9592,7 +10367,11 @@ defmodule Countriex.Data do
         currency_code: "RON",
         distance_unit: "KM",
         eea_member: true,
+        esm_member: nil,
         eu_member: true,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "RO",
         geo: %Countriex.Geo{
           latitude: 45.943161,
@@ -9605,6 +10384,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "ROU",
         iso_long_name: "Romania",
+        iso_short_name_lower_case: nil,
         languages_official: ["ro"],
         languages_spoken: ["ro"],
         name: "Romania",
@@ -9636,8 +10416,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "RO",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "RS",
         alpha3: "SRB",
@@ -9647,7 +10426,11 @@ defmodule Countriex.Data do
         currency_code: "RSD",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "RI",
         geo: %Countriex.Geo{
           latitude: 44.016521,
@@ -9660,6 +10443,7 @@ defmodule Countriex.Data do
         international_prefix: "99",
         ioc: "SRB",
         iso_long_name: "The Republic of Serbia",
+        iso_short_name_lower_case: nil,
         languages_official: ["sr"],
         languages_spoken: ["sr"],
         name: "Serbia",
@@ -9685,8 +10469,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "SRB",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: "{{recipient}}\n{{postalcode}} {{city}}\n{{street}}\n{{country}}",
         alpha2: "RU",
         alpha3: "RUS",
@@ -9696,8 +10479,11 @@ defmodule Countriex.Data do
         currency_code: "RUB",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
         g20_member: true,
+        g7_member: nil,
         gec: "RS",
         geo: %Countriex.Geo{
           latitude: 61.52401,
@@ -9740,8 +10526,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "RUS",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "RW",
         alpha3: "RWA",
@@ -9751,7 +10536,11 @@ defmodule Countriex.Data do
         currency_code: "RWF",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "RW",
         geo: %Countriex.Geo{
           latitude: -1.940278,
@@ -9764,6 +10553,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "RWA",
         iso_long_name: "The Republic of Rwanda",
+        iso_short_name_lower_case: nil,
         languages_official: ["rw",
          "en",
          "fr"],
@@ -9779,6 +10569,7 @@ defmodule Countriex.Data do
         nationality: "Rwandan",
         number: "646",
         postal_code: false,
+        postal_code_format: nil,
         region: "Africa",
         start_of_week: "monday",
         subregion: "Eastern Africa",
@@ -9791,8 +10582,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "RWA",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: "{{recipient}}\n{{street}}\n{{postalcode}} {{city}}\n{{country}}",
         alpha2: "SA",
         alpha3: "SAU",
@@ -9802,8 +10592,11 @@ defmodule Countriex.Data do
         currency_code: "SAR",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
         g20_member: true,
+        g7_member: nil,
         gec: "SA",
         geo: %Countriex.Geo{
           latitude: 23.885942,
@@ -9816,6 +10609,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "KSA",
         iso_long_name: "The Kingdom of Saudi Arabia",
+        iso_short_name_lower_case: nil,
         languages_official: ["ar"],
         languages_spoken: ["ar"],
         name: "Saudi Arabia",
@@ -9850,8 +10644,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "KSA",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "SB",
         alpha3: "SLB",
@@ -9861,7 +10654,11 @@ defmodule Countriex.Data do
         currency_code: "SBD",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "BP",
         geo: %Countriex.Geo{
           latitude: -9.64571,
@@ -9874,6 +10671,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "SOL",
         iso_long_name: "The Solomon Islands",
+        iso_short_name_lower_case: nil,
         languages_official: ["en"],
         languages_spoken: ["en"],
         name: "Solomon Islands",
@@ -9884,6 +10682,7 @@ defmodule Countriex.Data do
         nationality: "Solomon Islander",
         number: "090",
         postal_code: false,
+        postal_code_format: nil,
         region: "Oceania",
         start_of_week: "monday",
         subregion: "Melanesia",
@@ -9899,8 +10698,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "SOL",
         world_region: "APAC"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "SC",
         alpha3: "SYC",
@@ -9910,7 +10708,11 @@ defmodule Countriex.Data do
         currency_code: "SCR",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "SE",
         geo: %Countriex.Geo{
           latitude: -4.679574,
@@ -9923,6 +10725,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "SEY",
         iso_long_name: "The Republic of Seychelles",
+        iso_short_name_lower_case: nil,
         languages_official: ["fr",
          "en"],
         languages_spoken: ["fr",
@@ -9935,6 +10738,7 @@ defmodule Countriex.Data do
         nationality: "Seychellois",
         number: "690",
         postal_code: false,
+        postal_code_format: nil,
         region: "Africa",
         start_of_week: "monday",
         subregion: "Eastern Africa",
@@ -9947,8 +10751,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "SY",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "SD",
         alpha3: "SDN",
@@ -9958,7 +10761,11 @@ defmodule Countriex.Data do
         currency_code: "SDG",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "SU",
         geo: %Countriex.Geo{
           latitude: 12.862807,
@@ -10000,8 +10807,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "SUD",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: "{{recipient}}\n{{street}}\n{{postalcode}} {{city}}\n{{country}}",
         alpha2: "SE",
         alpha3: "SWE",
@@ -10011,7 +10817,11 @@ defmodule Countriex.Data do
         currency_code: "SEK",
         distance_unit: "KM",
         eea_member: true,
+        esm_member: nil,
         eu_member: true,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "SW",
         geo: %Countriex.Geo{
           latitude: 60.12816100000001,
@@ -10024,6 +10834,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "SWE",
         iso_long_name: "The Kingdom of Sweden",
+        iso_short_name_lower_case: nil,
         languages_official: ["sv"],
         languages_spoken: ["sv"],
         name: "Sweden",
@@ -10056,8 +10867,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "S",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: "{{recipient}}\n{{street}}\n{{city}} {{postalcode}}\n{{country}}",
         alpha2: "SG",
         alpha3: "SGP",
@@ -10067,7 +10877,11 @@ defmodule Countriex.Data do
         currency_code: "SGD",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "SN",
         geo: %Countriex.Geo{
           latitude: 1.352083,
@@ -10080,6 +10894,7 @@ defmodule Countriex.Data do
         international_prefix: "001",
         ioc: "SGP",
         iso_long_name: "The Republic of Singapore",
+        iso_short_name_lower_case: nil,
         languages_official: ["en",
          "ms",
          "ta"],
@@ -10109,8 +10924,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "SGP",
         world_region: "APAC"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "SH",
         alpha3: "SHN",
@@ -10120,7 +10934,11 @@ defmodule Countriex.Data do
         currency_code: "SHP",
         distance_unit: "MI",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "SH",
         geo: %Countriex.Geo{
           latitude: -24.1434812,
@@ -10133,6 +10951,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: nil,
         iso_long_name: "Saint Helena, Ascension and Tristan da Cunha",
+        iso_short_name_lower_case: nil,
         languages_official: ["en"],
         languages_spoken: ["en"],
         name: "Saint Helena, Ascension and Tristan da Cunha",
@@ -10157,10 +10976,10 @@ defmodule Countriex.Data do
          "Sint-Helena",
          "Saint Helena, Ascension and Tristan da Cunha"],
         vat_rates: nil,
+        vehicle_registration_code: nil,
         world_region: "APAC"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: "{{recipient}}\n{{street}}\n{{postalcode}} {{city}}\n{{country}}",
         alpha2: "SI",
         alpha3: "SVN",
@@ -10170,7 +10989,11 @@ defmodule Countriex.Data do
         currency_code: "EUR",
         distance_unit: "KM",
         eea_member: true,
+        esm_member: nil,
         eu_member: true,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "SI",
         geo: %Countriex.Geo{
           latitude: 46.151241,
@@ -10183,6 +11006,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "SLO",
         iso_long_name: "The Republic of Slovenia",
+        iso_short_name_lower_case: nil,
         languages_official: ["sl"],
         languages_spoken: ["sl"],
         name: "Slovenia",
@@ -10214,8 +11038,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "SLO",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "SJ",
         alpha3: "SJM",
@@ -10225,7 +11048,11 @@ defmodule Countriex.Data do
         currency_code: "NOK",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "SV",
         geo: %Countriex.Geo{
           latitude: 77.55360399999999,
@@ -10238,6 +11065,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: nil,
         iso_long_name: "Svalbard and Jan Mayen",
+        iso_short_name_lower_case: nil,
         languages_official: ["no"],
         languages_spoken: ["no"],
         name: "Svalbard and Jan Mayen",
@@ -10261,10 +11089,10 @@ defmodule Countriex.Data do
          "スヴァールバル諸島およびヤンマイエン島",
          "Svalbard en Jan Mayen"],
         vat_rates: nil,
+        vehicle_registration_code: nil,
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: "{{recipient}}\n{{street}}\n{{postalcode}} {{city}}\n{{country}}",
         alpha2: "SK",
         alpha3: "SVK",
@@ -10274,7 +11102,11 @@ defmodule Countriex.Data do
         currency_code: "EUR",
         distance_unit: "KM",
         eea_member: true,
+        esm_member: nil,
         eu_member: true,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "LO",
         geo: %Countriex.Geo{
           latitude: 48.669026,
@@ -10287,6 +11119,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "SVK",
         iso_long_name: "The Slovak Republic",
+        iso_short_name_lower_case: nil,
         languages_official: ["sk"],
         languages_spoken: ["sk"],
         name: "Slovakia",
@@ -10318,8 +11151,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "SK",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "SL",
         alpha3: "SLE",
@@ -10329,7 +11161,11 @@ defmodule Countriex.Data do
         currency_code: "SLE",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "SL",
         geo: %Countriex.Geo{
           latitude: 8.460555,
@@ -10342,6 +11178,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "SLE",
         iso_long_name: "The Republic of Sierra Leone",
+        iso_short_name_lower_case: nil,
         languages_official: ["en"],
         languages_spoken: ["en"],
         name: "Sierra Leone",
@@ -10352,6 +11189,7 @@ defmodule Countriex.Data do
         nationality: "Sierra Leonean",
         number: "694",
         postal_code: false,
+        postal_code_format: nil,
         region: "Africa",
         start_of_week: "monday",
         subregion: "Western Africa",
@@ -10363,8 +11201,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "SLE",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "SM",
         alpha3: "SMR",
@@ -10374,7 +11211,11 @@ defmodule Countriex.Data do
         currency_code: "EUR",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "SM",
         geo: %Countriex.Geo{
           latitude: 43.94236,
@@ -10387,6 +11228,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "SMR",
         iso_long_name: "The Republic of San Marino",
+        iso_short_name_lower_case: nil,
         languages_official: ["it"],
         languages_spoken: ["it"],
         name: "San Marino",
@@ -10413,8 +11255,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "RSM",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "SN",
         alpha3: "SEN",
@@ -10424,7 +11265,11 @@ defmodule Countriex.Data do
         currency_code: "XOF",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "SG",
         geo: %Countriex.Geo{
           latitude: 14.497401,
@@ -10437,6 +11282,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "SEN",
         iso_long_name: "The Republic of Senegal",
+        iso_short_name_lower_case: nil,
         languages_official: ["fr"],
         languages_spoken: ["fr"],
         name: "Senegal",
@@ -10460,8 +11306,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "SN",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "SO",
         alpha3: "SOM",
@@ -10471,7 +11316,11 @@ defmodule Countriex.Data do
         currency_code: "SOS",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "SO",
         geo: %Countriex.Geo{
           latitude: 5.152149,
@@ -10484,6 +11333,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "SOM",
         iso_long_name: "The Federal Republic of Somalia",
+        iso_short_name_lower_case: nil,
         languages_official: ["so",
          "ar"],
         languages_spoken: ["so",
@@ -10511,8 +11361,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "SO",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "SR",
         alpha3: "SUR",
@@ -10522,7 +11371,11 @@ defmodule Countriex.Data do
         currency_code: "SRD",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "NS",
         geo: %Countriex.Geo{
           latitude: 3.919305,
@@ -10535,6 +11388,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "SUR",
         iso_long_name: "The Republic of Suriname",
+        iso_short_name_lower_case: nil,
         languages_official: ["nl"],
         languages_spoken: ["nl"],
         name: "Suriname",
@@ -10545,6 +11399,7 @@ defmodule Countriex.Data do
         nationality: "Surinamer",
         number: "740",
         postal_code: false,
+        postal_code_format: nil,
         region: "Americas",
         start_of_week: "monday",
         subregion: "South America",
@@ -10557,8 +11412,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "SME",
         world_region: "AMER"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "SS",
         alpha3: "SSD",
@@ -10568,7 +11422,11 @@ defmodule Countriex.Data do
         currency_code: "SSP",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "OD",
         geo: %Countriex.Geo{
           latitude: 6.876991899999999,
@@ -10581,6 +11439,7 @@ defmodule Countriex.Data do
         international_prefix: "0",
         ioc: nil,
         iso_long_name: "The Republic of South Sudan",
+        iso_short_name_lower_case: nil,
         languages_official: ["ar",
          "en"],
         languages_spoken: ["ar",
@@ -10593,6 +11452,7 @@ defmodule Countriex.Data do
         nationality: "South Sudanese",
         number: "728",
         postal_code: false,
+        postal_code_format: nil,
         region: "Africa",
         start_of_week: "sunday",
         subregion: "Northern Africa",
@@ -10606,8 +11466,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "SSD",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "ST",
         alpha3: "STP",
@@ -10617,7 +11476,11 @@ defmodule Countriex.Data do
         currency_code: "STN",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "TP",
         geo: %Countriex.Geo{
           latitude: 0.18636,
@@ -10630,6 +11493,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "STP",
         iso_long_name: "The Democratic Republic of São Tomé and Príncipe",
+        iso_short_name_lower_case: nil,
         languages_official: ["pt"],
         languages_spoken: ["pt"],
         name: "Sao Tome and Principe",
@@ -10641,6 +11505,7 @@ defmodule Countriex.Data do
         nationality: "Sao Tomean",
         number: "678",
         postal_code: false,
+        postal_code_format: nil,
         region: "Africa",
         start_of_week: "monday",
         subregion: "Middle Africa",
@@ -10656,8 +11521,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "STP",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "SV",
         alpha3: "SLV",
@@ -10667,7 +11531,11 @@ defmodule Countriex.Data do
         currency_code: "USD",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "ES",
         geo: %Countriex.Geo{
           latitude: 13.794185,
@@ -10680,6 +11548,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "ESA",
         iso_long_name: "The Republic of El Salvador",
+        iso_short_name_lower_case: nil,
         languages_official: ["es"],
         languages_spoken: ["es"],
         name: "El Salvador",
@@ -10703,8 +11572,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "ES",
         world_region: "AMER"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "SX",
         alpha3: "SXM",
@@ -10714,7 +11582,11 @@ defmodule Countriex.Data do
         currency_code: "XCG",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "NN",
         geo: %Countriex.Geo{
           latitude: 18.04248,
@@ -10727,6 +11599,7 @@ defmodule Countriex.Data do
         international_prefix: "011",
         ioc: nil,
         iso_long_name: "Sint Maarten",
+        iso_short_name_lower_case: nil,
         languages_official: ["nl",
          "en"],
         languages_spoken: ["nl",
@@ -10739,6 +11612,7 @@ defmodule Countriex.Data do
         nationality: "Dutch",
         number: "534",
         postal_code: false,
+        postal_code_format: nil,
         region: "Americas",
         start_of_week: "monday",
         subregion: "Caribbean",
@@ -10747,10 +11621,10 @@ defmodule Countriex.Data do
         unofficial_names: ["Sint Maarten",
          "セント・マーチン島"],
         vat_rates: nil,
+        vehicle_registration_code: nil,
         world_region: "AMER"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: "{{recipient}}\n{{street}}\n{{postalcode}} {{city}}\n{{country}}",
         alpha2: "SY",
         alpha3: "SYR",
@@ -10760,7 +11634,11 @@ defmodule Countriex.Data do
         currency_code: "SYP",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "SY",
         geo: %Countriex.Geo{
           latitude: 34.80207499999999,
@@ -10773,6 +11651,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "SYR",
         iso_long_name: "The Syrian Arab Republic",
+        iso_short_name_lower_case: nil,
         languages_official: ["ar"],
         languages_spoken: ["ar"],
         name: "Syrian Arab Republic",
@@ -10784,6 +11663,7 @@ defmodule Countriex.Data do
         nationality: "Syrian",
         number: "760",
         postal_code: false,
+        postal_code_format: nil,
         region: "Asia",
         start_of_week: "monday",
         subregion: "Western Asia",
@@ -10801,8 +11681,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "SYR",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "SZ",
         alpha3: "SWZ",
@@ -10812,7 +11691,11 @@ defmodule Countriex.Data do
         currency_code: "SZL",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "WZ",
         geo: %Countriex.Geo{
           latitude: -26.522503,
@@ -10825,6 +11708,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "SWZ",
         iso_long_name: "The Kingdom of Eswatini",
+        iso_short_name_lower_case: nil,
         languages_official: ["en",
          "ss"],
         languages_spoken: ["en",
@@ -10851,8 +11735,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "SD",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "TC",
         alpha3: "TCA",
@@ -10862,7 +11745,11 @@ defmodule Countriex.Data do
         currency_code: "USD",
         distance_unit: "MI",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "TK",
         geo: %Countriex.Geo{
           latitude: 21.694025,
@@ -10900,10 +11787,10 @@ defmodule Countriex.Data do
          "Turks- en Caicoseilanden",
          "Turks and Caicos"],
         vat_rates: nil,
+        vehicle_registration_code: nil,
         world_region: "APAC"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "TD",
         alpha3: "TCD",
@@ -10913,7 +11800,11 @@ defmodule Countriex.Data do
         currency_code: "XAF",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "CD",
         geo: %Countriex.Geo{
           latitude: 15.454166,
@@ -10926,6 +11817,7 @@ defmodule Countriex.Data do
         international_prefix: "15",
         ioc: "CHA",
         iso_long_name: "The Republic of Chad",
+        iso_short_name_lower_case: nil,
         languages_official: ["ar",
          "fr"],
         languages_spoken: ["ar",
@@ -10938,6 +11830,7 @@ defmodule Countriex.Data do
         nationality: "Chadian",
         number: "148",
         postal_code: false,
+        postal_code_format: nil,
         region: "Africa",
         start_of_week: "monday",
         subregion: "Middle Africa",
@@ -10953,8 +11846,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "TD",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "TF",
         alpha3: "ATF",
@@ -10964,7 +11856,11 @@ defmodule Countriex.Data do
         currency_code: "EUR",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "FS",
         geo: %Countriex.Geo{
           latitude: -49.280366,
@@ -10988,6 +11884,7 @@ defmodule Countriex.Data do
         nationality: "French",
         number: "260",
         postal_code: false,
+        postal_code_format: nil,
         region: "Africa",
         start_of_week: "monday",
         subregion: "Eastern Africa",
@@ -11001,10 +11898,10 @@ defmodule Countriex.Data do
          "Franse Gebieden in de zuidelijke Indische Oceaan",
          "French Southern and Antarctic Lands"],
         vat_rates: nil,
+        vehicle_registration_code: nil,
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "TG",
         alpha3: "TGO",
@@ -11014,7 +11911,11 @@ defmodule Countriex.Data do
         currency_code: "XOF",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "TO",
         geo: %Countriex.Geo{
           latitude: 8.619543,
@@ -11027,6 +11928,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "TOG",
         iso_long_name: "The Togolese Republic",
+        iso_short_name_lower_case: nil,
         languages_official: ["fr"],
         languages_spoken: ["fr"],
         name: "Togo",
@@ -11037,6 +11939,7 @@ defmodule Countriex.Data do
         nationality: "Togolese",
         number: "768",
         postal_code: false,
+        postal_code_format: nil,
         region: "Africa",
         start_of_week: "monday",
         subregion: "Western Africa",
@@ -11048,8 +11951,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "RT",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "TH",
         alpha3: "THA",
@@ -11059,7 +11961,11 @@ defmodule Countriex.Data do
         currency_code: "THB",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "TH",
         geo: %Countriex.Geo{
           latitude: 15.870032,
@@ -11072,6 +11978,7 @@ defmodule Countriex.Data do
         international_prefix: "001",
         ioc: "THA",
         iso_long_name: "The Kingdom of Thailand",
+        iso_short_name_lower_case: nil,
         languages_official: ["th"],
         languages_spoken: ["th"],
         name: "Thailand",
@@ -11103,8 +12010,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "T",
         world_region: "APAC"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "TJ",
         alpha3: "TJK",
@@ -11114,7 +12020,11 @@ defmodule Countriex.Data do
         currency_code: "TJS",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "TI",
         geo: %Countriex.Geo{
           latitude: 38.861034,
@@ -11127,6 +12037,7 @@ defmodule Countriex.Data do
         international_prefix: "810",
         ioc: "TJK",
         iso_long_name: "The Republic of Tajikistan",
+        iso_short_name_lower_case: nil,
         languages_official: ["tg",
          "ru"],
         languages_spoken: ["tg",
@@ -11155,8 +12066,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "TJ",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "TK",
         alpha3: "TKL",
@@ -11166,7 +12076,11 @@ defmodule Countriex.Data do
         currency_code: "NZD",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "TL",
         geo: %Countriex.Geo{
           latitude: -9.200199999999999,
@@ -11179,6 +12093,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: nil,
         iso_long_name: "Tokelau",
+        iso_short_name_lower_case: nil,
         languages_official: ["en"],
         languages_spoken: ["en"],
         name: "Tokelau",
@@ -11189,6 +12104,7 @@ defmodule Countriex.Data do
         nationality: "Tokelauan",
         number: "772",
         postal_code: false,
+        postal_code_format: nil,
         region: "Oceania",
         start_of_week: "monday",
         subregion: "Polynesia",
@@ -11199,10 +12115,10 @@ defmodule Countriex.Data do
          "Islas Tokelau",
          "トケラウ"],
         vat_rates: nil,
+        vehicle_registration_code: nil,
         world_region: "APAC"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "TL",
         alpha3: "TLS",
@@ -11212,7 +12128,11 @@ defmodule Countriex.Data do
         currency_code: "IDR",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "TT",
         geo: %Countriex.Geo{
           latitude: -8.874217,
@@ -11225,6 +12145,7 @@ defmodule Countriex.Data do
         international_prefix: "None",
         ioc: "TLS",
         iso_long_name: "The Democratic Republic of Timor-Leste",
+        iso_short_name_lower_case: nil,
         languages_official: ["pt"],
         languages_spoken: ["pt"],
         name: "Timor-Leste",
@@ -11235,6 +12156,7 @@ defmodule Countriex.Data do
         nationality: "East Timorese",
         number: "626",
         postal_code: false,
+        postal_code_format: nil,
         region: "Asia",
         start_of_week: "monday",
         subregion: "South-Eastern Asia",
@@ -11250,8 +12172,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "TL",
         world_region: "APAC"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "TM",
         alpha3: "TKM",
@@ -11261,7 +12182,11 @@ defmodule Countriex.Data do
         currency_code: "TMT",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "TX",
         geo: %Countriex.Geo{
           latitude: 38.969719,
@@ -11274,6 +12199,7 @@ defmodule Countriex.Data do
         international_prefix: "810",
         ioc: "TKM",
         iso_long_name: "Turkmenistan",
+        iso_short_name_lower_case: nil,
         languages_official: ["tk"],
         languages_spoken: ["tk",
          "ru"],
@@ -11300,8 +12226,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "TM",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "TN",
         alpha3: "TUN",
@@ -11311,7 +12236,11 @@ defmodule Countriex.Data do
         currency_code: "TND",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "TS",
         geo: %Countriex.Geo{
           latitude: 33.886917,
@@ -11324,6 +12253,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "TUN",
         iso_long_name: "The Republic of Tunisia",
+        iso_short_name_lower_case: nil,
         languages_official: ["ar",
          "fr"],
         languages_spoken: ["ar",
@@ -11353,8 +12283,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "TN",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "TO",
         alpha3: "TON",
@@ -11364,7 +12293,11 @@ defmodule Countriex.Data do
         currency_code: "TOP",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "TN",
         geo: %Countriex.Geo{
           latitude: -21.178986,
@@ -11377,6 +12310,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "TGA",
         iso_long_name: "The Kingdom of Tonga",
+        iso_short_name_lower_case: nil,
         languages_official: ["en",
          "to"],
         languages_spoken: ["en",
@@ -11391,6 +12325,7 @@ defmodule Countriex.Data do
         nationality: "Tongan",
         number: "776",
         postal_code: false,
+        postal_code_format: nil,
         region: "Oceania",
         start_of_week: "monday",
         subregion: "Polynesia",
@@ -11402,8 +12337,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "TON",
         world_region: "APAC"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: "{{recipient}}\n{{street}}\n{{postalcode}} {{city}}\n{{country}}",
         alpha2: "TR",
         alpha3: "TUR",
@@ -11413,8 +12347,11 @@ defmodule Countriex.Data do
         currency_code: "TRY",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
         g20_member: true,
+        g7_member: nil,
         gec: "TU",
         geo: %Countriex.Geo{
           latitude: 38.963745,
@@ -11427,6 +12364,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "TUR",
         iso_long_name: "The Republic of Türkiye",
+        iso_short_name_lower_case: nil,
         languages_official: ["tr"],
         languages_spoken: ["tr"],
         name: "Türkiye",
@@ -11453,8 +12391,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "TR",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "TT",
         alpha3: "TTO",
@@ -11464,7 +12401,11 @@ defmodule Countriex.Data do
         currency_code: "TTD",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "TD",
         geo: %Countriex.Geo{
           latitude: 10.691803,
@@ -11477,6 +12418,7 @@ defmodule Countriex.Data do
         international_prefix: "011",
         ioc: "TRI",
         iso_long_name: "The Republic of Trinidad and Tobago",
+        iso_short_name_lower_case: nil,
         languages_official: ["en"],
         languages_spoken: ["en"],
         name: "Trinidad and Tobago",
@@ -11487,6 +12429,7 @@ defmodule Countriex.Data do
         nationality: "Trinidadian",
         number: "780",
         postal_code: false,
+        postal_code_format: nil,
         region: "Americas",
         start_of_week: "monday",
         subregion: "Caribbean",
@@ -11502,8 +12445,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "TT",
         world_region: "AMER"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "TV",
         alpha3: "TUV",
@@ -11513,7 +12455,11 @@ defmodule Countriex.Data do
         currency_code: "AUD",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "TV",
         geo: %Countriex.Geo{
           latitude: -7.109534999999999,
@@ -11526,6 +12472,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "TUV",
         iso_long_name: "Tuvalu",
+        iso_short_name_lower_case: nil,
         languages_official: ["en"],
         languages_spoken: ["en"],
         name: "Tuvalu",
@@ -11536,6 +12483,7 @@ defmodule Countriex.Data do
         nationality: "Tuvaluan",
         number: "798",
         postal_code: false,
+        postal_code_format: nil,
         region: "Oceania",
         start_of_week: "monday",
         subregion: "Polynesia",
@@ -11547,8 +12495,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "TUV",
         world_region: "APAC"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: "{{recipient}}\n{{street}}\n{{city}} {{region_short}} {{postalcode}}\n{{country}}",
         alpha2: "TW",
         alpha3: "TWN",
@@ -11558,7 +12505,11 @@ defmodule Countriex.Data do
         currency_code: "TWD",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "TW",
         geo: %Countriex.Geo{
           latitude: 23.69781,
@@ -11599,8 +12550,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "RC",
         world_region: "APAC"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "TZ",
         alpha3: "TZA",
@@ -11610,7 +12560,11 @@ defmodule Countriex.Data do
         currency_code: "TZS",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "TZ",
         geo: %Countriex.Geo{
           latitude: -6.369028,
@@ -11623,6 +12577,7 @@ defmodule Countriex.Data do
         international_prefix: "000",
         ioc: "TAN",
         iso_long_name: "The United Republic of Tanzania",
+        iso_short_name_lower_case: nil,
         languages_official: ["sw",
          "en"],
         languages_spoken: ["sw",
@@ -11650,8 +12605,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "EAT",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: "{{recipient}}\n{{street}}\n{{city}} {{region_short}}\n{{postalcode}}\n{{country}}",
         alpha2: "UA",
         alpha3: "UKR",
@@ -11661,7 +12615,11 @@ defmodule Countriex.Data do
         currency_code: "UAH",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "UP",
         geo: %Countriex.Geo{
           latitude: 48.379433,
@@ -11674,6 +12632,7 @@ defmodule Countriex.Data do
         international_prefix: "810",
         ioc: "UKR",
         iso_long_name: "Ukraine",
+        iso_short_name_lower_case: nil,
         languages_official: ["uk"],
         languages_spoken: ["uk"],
         name: "Ukraine",
@@ -11707,8 +12666,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "UA",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "UG",
         alpha3: "UGA",
@@ -11718,7 +12676,11 @@ defmodule Countriex.Data do
         currency_code: "UGX",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "UG",
         geo: %Countriex.Geo{
           latitude: 1.373333,
@@ -11731,6 +12693,7 @@ defmodule Countriex.Data do
         international_prefix: "000",
         ioc: "UGA",
         iso_long_name: "The Republic of Uganda",
+        iso_short_name_lower_case: nil,
         languages_official: ["en",
          "sw"],
         languages_spoken: ["en",
@@ -11743,6 +12706,7 @@ defmodule Countriex.Data do
         nationality: "Ugandan",
         number: "800",
         postal_code: false,
+        postal_code_format: nil,
         region: "Africa",
         start_of_week: "monday",
         subregion: "Eastern Africa",
@@ -11755,8 +12719,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "EAU",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "UM",
         alpha3: "UMI",
@@ -11766,7 +12729,11 @@ defmodule Countriex.Data do
         currency_code: "USD",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: nil,
         geo: %Countriex.Geo{
           latitude: 19.2823192,
@@ -11803,10 +12770,10 @@ defmodule Countriex.Data do
          "合衆国領有小離島",
          "Kleine afgelegen eilanden van de Verenigde Staten"],
         vat_rates: nil,
+        vehicle_registration_code: nil,
         world_region: "AMER"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: "{{recipient}}\n{{street}}\n{{city}} {{region_short}} {{postalcode}}\n{{country}}",
         alpha2: "US",
         alpha3: "USA",
@@ -11816,7 +12783,9 @@ defmodule Countriex.Data do
         currency_code: "USD",
         distance_unit: "MI",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
         g20_member: true,
         g7_member: true,
         gec: "US",
@@ -11861,8 +12830,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "USA",
         world_region: "AMER"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "UY",
         alpha3: "URY",
@@ -11872,7 +12840,11 @@ defmodule Countriex.Data do
         currency_code: "UYU",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "UY",
         geo: %Countriex.Geo{
           latitude: -32.522779,
@@ -11885,6 +12857,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "URU",
         iso_long_name: "The Oriental Republic of Uruguay",
+        iso_short_name_lower_case: nil,
         languages_official: ["es"],
         languages_spoken: ["es"],
         name: "Uruguay",
@@ -11908,8 +12881,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "ROU",
         world_region: "AMER"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "UZ",
         alpha3: "UZB",
@@ -11919,7 +12891,11 @@ defmodule Countriex.Data do
         currency_code: "UZS",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "UZ",
         geo: %Countriex.Geo{
           latitude: 41.377491,
@@ -11932,6 +12908,7 @@ defmodule Countriex.Data do
         international_prefix: "810",
         ioc: "UZB",
         iso_long_name: "The Republic of Uzbekistan",
+        iso_short_name_lower_case: nil,
         languages_official: ["uz"],
         languages_spoken: ["uz",
          "ru"],
@@ -11959,8 +12936,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "UZ",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "VA",
         alpha3: "VAT",
@@ -11970,7 +12946,11 @@ defmodule Countriex.Data do
         currency_code: "EUR",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "VT",
         geo: %Countriex.Geo{
           latitude: 41.902916,
@@ -12014,8 +12994,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "V",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "VC",
         alpha3: "VCT",
@@ -12025,7 +13004,11 @@ defmodule Countriex.Data do
         currency_code: "XCD",
         distance_unit: "MI",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "VC",
         geo: %Countriex.Geo{
           latitude: 12.984305,
@@ -12038,6 +13021,7 @@ defmodule Countriex.Data do
         international_prefix: "011",
         ioc: "VIN",
         iso_long_name: "Saint Vincent and the Grenadines",
+        iso_short_name_lower_case: nil,
         languages_official: ["en"],
         languages_spoken: ["en"],
         name: "Saint Vincent and the Grenadines",
@@ -12066,8 +13050,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "WV",
         world_region: "AMER"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "VE",
         alpha3: "VEN",
@@ -12077,7 +13060,11 @@ defmodule Countriex.Data do
         currency_code: "VES",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "VE",
         geo: %Countriex.Geo{
           latitude: 6.42375,
@@ -12090,6 +13077,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "VEN",
         iso_long_name: "The Bolivarian Republic of Venezuela",
+        iso_short_name_lower_case: nil,
         languages_official: ["es"],
         languages_spoken: ["es"],
         name: "Venezuela (Bolivarian Republic of)",
@@ -12112,8 +13100,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "YV",
         world_region: "AMER"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "VG",
         alpha3: "VGB",
@@ -12123,7 +13110,11 @@ defmodule Countriex.Data do
         currency_code: "USD",
         distance_unit: "MI",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "VI",
         geo: %Countriex.Geo{
           latitude: 18.420695,
@@ -12136,6 +13127,7 @@ defmodule Countriex.Data do
         international_prefix: "011",
         ioc: "IVB",
         iso_long_name: "The Virgin Islands",
+        iso_short_name_lower_case: nil,
         languages_official: ["en"],
         languages_spoken: ["en"],
         name: "Virgin Islands (British)",
@@ -12163,8 +13155,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "BVI",
         world_region: "AMER"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "VI",
         alpha3: "VIR",
@@ -12174,7 +13165,11 @@ defmodule Countriex.Data do
         currency_code: "USD",
         distance_unit: "MI",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "VQ",
         geo: %Countriex.Geo{
           latitude: 18.335765,
@@ -12187,6 +13182,7 @@ defmodule Countriex.Data do
         international_prefix: "011",
         ioc: "ISV",
         iso_long_name: "The Virgin Islands of the United States",
+        iso_short_name_lower_case: nil,
         languages_official: ["en"],
         languages_spoken: ["en"],
         name: "Virgin Islands (U.S.)",
@@ -12213,10 +13209,10 @@ defmodule Countriex.Data do
          "United States Virgin Islands",
          "U.S. Virgin Islands"],
         vat_rates: nil,
+        vehicle_registration_code: nil,
         world_region: "AMER"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: "{{recipient}}\n{{street}}\n{{city}}\n{{region}}\n{{country}}",
         alpha2: "VN",
         alpha3: "VNM",
@@ -12226,7 +13222,11 @@ defmodule Countriex.Data do
         currency_code: "VND",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "VM",
         geo: %Countriex.Geo{
           latitude: 14.058324,
@@ -12239,6 +13239,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "VIE",
         iso_long_name: "The Socialist Republic of Viet Nam",
+        iso_short_name_lower_case: nil,
         languages_official: ["vi"],
         languages_spoken: ["vi"],
         name: "Viet Nam",
@@ -12265,8 +13266,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "VN",
         world_region: "APAC"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "VU",
         alpha3: "VUT",
@@ -12276,7 +13276,11 @@ defmodule Countriex.Data do
         currency_code: "VUV",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "NH",
         geo: %Countriex.Geo{
           latitude: -15.376706,
@@ -12289,6 +13293,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "VAN",
         iso_long_name: "The Republic of Vanuatu",
+        iso_short_name_lower_case: nil,
         languages_official: ["bi",
          "en",
          "fr"],
@@ -12305,6 +13310,7 @@ defmodule Countriex.Data do
         nationality: "Ni-Vanuatu",
         number: "548",
         postal_code: false,
+        postal_code_format: nil,
         region: "Oceania",
         start_of_week: "monday",
         subregion: "Melanesia",
@@ -12316,8 +13322,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "VAN",
         world_region: "APAC"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "WF",
         alpha3: "WLF",
@@ -12327,7 +13332,11 @@ defmodule Countriex.Data do
         currency_code: "XPF",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "WF",
         geo: %Countriex.Geo{
           latitude: -14.2938,
@@ -12340,6 +13349,7 @@ defmodule Countriex.Data do
         international_prefix: "19",
         ioc: nil,
         iso_long_name: "The Territory of the Wallis and Futuna Islands",
+        iso_short_name_lower_case: nil,
         languages_official: ["fr"],
         languages_spoken: ["fr"],
         name: "Wallis and Futuna",
@@ -12363,10 +13373,10 @@ defmodule Countriex.Data do
          "ウォリス・フツナ",
          "Wallis en Futuna"],
         vat_rates: nil,
+        vehicle_registration_code: nil,
         world_region: "APAC"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "WS",
         alpha3: "WSM",
@@ -12376,7 +13386,11 @@ defmodule Countriex.Data do
         currency_code: "WST",
         distance_unit: "MI",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "WS",
         geo: %Countriex.Geo{
           latitude: -13.759029,
@@ -12389,6 +13403,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "SAM",
         iso_long_name: "The Independent State of Samoa",
+        iso_short_name_lower_case: nil,
         languages_official: ["sm",
          "en"],
         languages_spoken: ["sm",
@@ -12402,6 +13417,7 @@ defmodule Countriex.Data do
         nationality: "Samoan",
         number: "882",
         postal_code: false,
+        postal_code_format: nil,
         region: "Oceania",
         start_of_week: "monday",
         subregion: "Polynesia",
@@ -12413,8 +13429,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "WS",
         world_region: "APAC"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: "{{recipient}}\n{{street}}\n{{postalcode}} {{city}}\n{{country}}",
         alpha2: "YE",
         alpha3: "YEM",
@@ -12424,7 +13439,11 @@ defmodule Countriex.Data do
         currency_code: "YER",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "YM",
         geo: %Countriex.Geo{
           latitude: 15.552727,
@@ -12437,6 +13456,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "YEM",
         iso_long_name: "The Republic of Yemen",
+        iso_short_name_lower_case: nil,
         languages_official: ["ar"],
         languages_spoken: ["ar"],
         name: "Yemen",
@@ -12449,6 +13469,7 @@ defmodule Countriex.Data do
         nationality: "Yemeni",
         number: "887",
         postal_code: false,
+        postal_code_format: nil,
         region: "Asia",
         start_of_week: "sunday",
         subregion: "Western Asia",
@@ -12463,8 +13484,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "YEM",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "YT",
         alpha3: "MYT",
@@ -12474,8 +13494,11 @@ defmodule Countriex.Data do
         currency_code: "EUR",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: true,
         euvat_member: false,
+        g20_member: nil,
+        g7_member: nil,
         gec: "MF",
         geo: %Countriex.Geo{
           latitude: -12.8275,
@@ -12488,6 +13511,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: nil,
         iso_long_name: "The Department of Mayotte",
+        iso_short_name_lower_case: nil,
         languages_official: ["fr"],
         languages_spoken: ["fr"],
         name: "Mayotte",
@@ -12507,10 +13531,10 @@ defmodule Countriex.Data do
         unofficial_names: ["Mayotte",
          "マヨット"],
         vat_rates: nil,
+        vehicle_registration_code: nil,
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: "{{recipient}}\n{{street}}\n{{city}}\n{{region}}\n{{postalcode}}\n{{country}}",
         alpha2: "ZA",
         alpha3: "ZAF",
@@ -12520,8 +13544,11 @@ defmodule Countriex.Data do
         currency_code: "ZAR",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
         g20_member: true,
+        g7_member: nil,
         gec: "SF",
         geo: %Countriex.Geo{
           latitude: -30.559482,
@@ -12534,6 +13561,7 @@ defmodule Countriex.Data do
         international_prefix: "09",
         ioc: "RSA",
         iso_long_name: "The Republic of South Africa",
+        iso_short_name_lower_case: nil,
         languages_official: ["af",
          "en",
          "nr",
@@ -12578,8 +13606,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "ZA",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "ZM",
         alpha3: "ZMB",
@@ -12589,7 +13616,11 @@ defmodule Countriex.Data do
         currency_code: "ZMW",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "ZA",
         geo: %Countriex.Geo{
           latitude: -13.133897,
@@ -12602,6 +13633,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "ZAM",
         iso_long_name: "The Republic of Zambia",
+        iso_short_name_lower_case: nil,
         languages_official: ["en"],
         languages_spoken: ["en"],
         name: "Zambia",
@@ -12626,8 +13658,7 @@ defmodule Countriex.Data do
         vehicle_registration_code: "Z",
         world_region: "EMEA"
       },
-      %{
-        __struct__: Countriex.Country,
+      %Countriex.Country{
         address_format: nil,
         alpha2: "ZW",
         alpha3: "ZWE",
@@ -12637,7 +13668,11 @@ defmodule Countriex.Data do
         currency_code: "USD",
         distance_unit: "KM",
         eea_member: nil,
+        esm_member: nil,
         eu_member: nil,
+        euvat_member: nil,
+        g20_member: nil,
+        g7_member: nil,
         gec: "ZI",
         geo: %Countriex.Geo{
           latitude: -19.015438,
@@ -12650,6 +13685,7 @@ defmodule Countriex.Data do
         international_prefix: "00",
         ioc: "ZIM",
         iso_long_name: "The Republic of Zimbabwe",
+        iso_short_name_lower_case: nil,
         languages_official: ["en",
          "sn",
          "nd"],
@@ -12667,6 +13703,7 @@ defmodule Countriex.Data do
         nationality: "Zimbabwean",
         number: "716",
         postal_code: false,
+        postal_code_format: nil,
         region: "Africa",
         start_of_week: "monday",
         subregion: "Eastern Africa",
